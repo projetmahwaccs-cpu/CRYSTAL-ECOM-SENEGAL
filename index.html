@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystal Company Limited — Boutique en ligne au Sénégal | Livraison Dakar</title>
+  <meta name="description" content="Boutique en ligne au Sénégal : mode, électroménager, beauté & parfums, alimentation Best Foods, papier Capital & Double A. Livraison J+1 à Dakar. Paiement Wave, Orange Money ou à la livraison." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0b7a44" />
+  <meta name="geo.region" content="SN-DK" />
+  <meta name="geo.placename" content="Dakar" />
+  <link rel="canonical" href="https://crystal-company.sn/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Crystal Company Limited" />
+  <meta property="og:title" content="Crystal Company Limited — Boutique en ligne au Sénégal" />
+  <meta property="og:description" content="Mode, électroménager, beauté, alimentation, papier. Livraison J+1 à Dakar. Wave, Orange Money, paiement à la livraison." />
+  <meta property="og:image" content="https://crystal-company.sn/ccl-logo.png" />
+  <meta property="og:url" content="https://crystal-company.sn/" />
+  <meta property="og:locale" content="fr_SN" />
+  <link rel="icon" href="ccl-logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="ccl-logo.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Crystal Company Limited",
+    "alternateName": "CCL",
+    "image": "https://crystal-company.sn/ccl-logo.png",
+    "description": "Boutique en ligne au Sénégal : mode, électroménager, beauté, alimentation, papier. Livraison à Dakar.",
+    "url": "https://crystal-company.sn/",
+    "telephone": "+221774976364",
+    "email": "crystalecom2026@gmail.com",
+    "priceRange": "FCFA",
+    "currenciesAccepted": "XOF",
+    "paymentAccepted": "Wave, Orange Money, Espèces à la livraison",
+    "areaServed": "Dakar, Sénégal",
+    "address": { "@type": "PostalAddress", "addressLocality": "Dakar", "addressCountry": "SN" },
+    "sameAs": ["https://wa.me/221774976364"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css">
+
+<style>
+/* ============================================================
+   CCL — E-COMMERCE PRO · Design system
+   Esprit boutique Shopify : blanc, net, typographie Assistant,
+   boutons rectangulaires, accent vert Crystal.
+   ============================================================ */
+*,*::before,*::after{ box-sizing:border-box; margin:0; padding:0; }
+:root{
+  --ink:#121212;
+  --body:#4a4a4a;
+  --line:rgba(18,18,18,.09);
+  --line-strong:rgba(18,18,18,.5);
+  --tile:#f6f6f6;
+  --accent:#0b7a44;
+  --accent-dark:#075232;
+  --sale:#c22f2f;
+  --font:'Assistant',sans-serif;
+  --r:4px;
+  --pad:40px;
+  --shadow:0 10px 30px rgba(18,18,18,.10);
+}
+html{ scroll-behavior:smooth; }
+body{ font-family:var(--font); background:#fff; color:var(--ink); font-size:15px; letter-spacing:.02em; -webkit-font-smoothing:antialiased; }
+img{ max-width:100%; display:block; }
+a{ color:inherit; text-decoration:none; }
+button{ font-family:inherit; cursor:pointer; }
+input,select,textarea{ font-family:inherit; font-size:14px; }
+::selection{ background:var(--ink); color:#fff; }
+::-webkit-scrollbar{ width:10px; height:8px; }
+::-webkit-scrollbar-thumb{ background:#cfcfcf; border-radius:99px; border:2px solid #fff; }
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{ outline:2px solid var(--ink); outline-offset:2px; }
+i.ti{ line-height:1; vertical-align:-2px; }
+
+/* ---------- Boutons ---------- */
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:13px 26px; font-size:13px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; border-radius:0; border:1px solid var(--ink); transition:background .2s,color .2s,opacity .2s; }
+.btn-solid{ background:var(--ink); color:#fff; }
+.btn-solid:hover{ background:#000; }
+.btn-line{ background:transparent; color:var(--ink); }
+.btn-line:hover{ background:var(--ink); color:#fff; }
+.btn-green{ background:var(--accent); border-color:var(--accent); color:#fff; }
+.btn-green:hover{ background:var(--accent-dark); border-color:var(--accent-dark); }
+.btn-wa{ background:#1faa53; border-color:#1faa53; color:#fff; }
+.btn-wa:hover{ background:#178a43; border-color:#178a43; }
+.btn[disabled]{ opacity:.45; cursor:not-allowed; }
+.link{ font-weight:600; text-decoration:underline; text-underline-offset:4px; }
+.link:hover{ opacity:.65; }
+
+/* ---------- Barre d'annonce ---------- */
+.announce{ background:var(--accent); color:#fff; text-align:center; font-size:12.5px; font-weight:600; letter-spacing:.06em; padding:9px 16px; display:flex; justify-content:center; align-items:center; gap:8px; }
+
+/* ---------- Header ---------- */
+.header{ position:sticky; top:0; z-index:200; background:#fff; border-bottom:1px solid var(--line); transition:box-shadow .3s; }
+body.scrolled .header{ box-shadow:0 2px 14px rgba(18,18,18,.07); }
+.header-in{ display:flex; align-items:center; gap:22px; padding:14px var(--pad); }
+.logo img{ height:46px; width:auto; }
+.hsearch{ flex:1; display:flex; max-width:560px; margin:0 auto; }
+.hsearch input{ flex:1; border:1px solid var(--line-strong); border-right:none; padding:11px 16px; font-size:13.5px; }
+.hsearch input:focus{ outline:none; border-color:var(--ink); }
+.hsearch button{ background:var(--ink); color:#fff; border:none; padding:11px 20px; font-size:16px; }
+.hsearch button:hover{ background:#000; }
+.hacts{ display:flex; gap:20px; }
+.hact{ position:relative; display:flex; flex-direction:column; align-items:center; gap:2px; font-size:10.5px; font-weight:600; letter-spacing:.05em; color:var(--ink); background:none; border:none; }
+.hact i{ font-size:21px; }
+.hact:hover{ opacity:.65; }
+.hact .bub{ position:absolute; top:-5px; right:-2px; min-width:17px; height:17px; padding:0 4px; border-radius:99px; background:var(--ink); color:#fff; font-size:10px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+.hact .bub:empty, .hact .bub[data-n="0"]{ display:none; }
+
+/* ---------- Nav catégories ---------- */
+.catnav{ display:flex; justify-content:center; gap:4px; border-bottom:1px solid var(--line); padding:0 var(--pad); overflow-x:auto; background:#fff; }
+.catnav a{ padding:14px 15px; font-size:12.5px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; white-space:nowrap; border-bottom:2px solid transparent; color:var(--ink); }
+.catnav a:hover,.catnav a.on{ border-bottom-color:var(--ink); }
+.catnav a.promo{ color:var(--sale); }
+.catnav a.promo:hover{ border-bottom-color:var(--sale); }
+
+/* ---------- Structure de page ---------- */
+main{ min-height:62vh; }
+.wrap{ padding:0 var(--pad); max-width:1400px; margin:0 auto; }
+.sec{ padding:44px var(--pad); max-width:1400px; margin:0 auto; }
+.sec-head{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; margin-bottom:24px; }
+.sec-head h2{ font-size:26px; font-weight:500; letter-spacing:.01em; }
+.crumbs{ font-size:12.5px; color:var(--body); padding:18px var(--pad) 0; max-width:1400px; margin:0 auto; }
+.crumbs a:hover{ text-decoration:underline; }
+.crumbs i{ font-size:11px; margin:0 4px; }
+.page-title{ font-size:30px; font-weight:500; margin-bottom:6px; }
+.page-sub{ color:var(--body); font-size:14px; }
+
+/* ---------- Hero ---------- */
+.hero{ position:relative; background:linear-gradient(115deg,#04301c 0%,var(--accent-dark) 55%,#0d6b3e 100%); color:#fff; overflow:hidden; }
+.hero-in{ max-width:1400px; margin:0 auto; padding:74px var(--pad) 84px; position:relative; z-index:2; max-width:660px; margin-left:auto; margin-right:auto; text-align:center; display:flex; flex-direction:column; align-items:center; gap:18px; }
+.hero-kicker{ font-size:12px; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:#9fd8b8; }
+.hero h1{ font-size:44px; font-weight:600; line-height:1.15; letter-spacing:.01em; }
+.hero p{ font-size:16px; color:rgba(255,255,255,.85); line-height:1.6; max-width:480px; }
+.hero .btn-solid{ background:#fff; color:var(--ink); border-color:#fff; }
+.hero .btn-solid:hover{ background:#e9e9e9; }
+.hero .btn-line{ color:#fff; border-color:rgba(255,255,255,.6); }
+.hero .btn-line:hover{ background:#fff; color:var(--ink); }
+.hero::after{ content:""; position:absolute; right:-140px; top:-140px; width:460px; height:460px; border-radius:50%; background:radial-gradient(circle,rgba(217,166,46,.35),transparent 70%); }
+.hero-badges{ display:flex; gap:22px; flex-wrap:wrap; justify-content:center; margin-top:8px; font-size:12.5px; color:rgba(255,255,255,.85); }
+.hero-badges span{ display:flex; align-items:center; gap:6px; }
+.hero-badges i{ color:#d9a62e; }
+
+/* ---------- Grilles catégories (accueil) ---------- */
+.catgrid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px; }
+.catcard{ background:var(--tile); border:1px solid var(--line); border-radius:var(--r); padding:22px 12px; text-align:center; transition:border-color .2s, transform .2s; }
+.catcard:hover{ border-color:var(--ink); transform:translateY(-3px); }
+.catcard i{ font-size:26px; margin-bottom:8px; display:block; }
+.catcard span{ font-size:12.5px; font-weight:600; letter-spacing:.03em; }
+
+/* ---------- Cartes produit ---------- */
+.pgrid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(225px,1fr)); gap:26px 20px; }
+.pcard{ display:flex; flex-direction:column; cursor:pointer; }
+.pimg{ position:relative; aspect-ratio:1/1; background:var(--tile); border-radius:var(--r); overflow:hidden; display:flex; align-items:center; justify-content:center; }
+.pimg img{ width:100%; height:100%; object-fit:contain; padding:12px; mix-blend-mode:multiply; transition:transform .6s cubic-bezier(.2,.6,.2,1); }
+.pcard:hover .pimg img{ transform:scale(1.05); }
+.pimg.noimg::after{ content:"Photo à venir"; font-size:12px; color:#9a9a9a; letter-spacing:.06em; }
+.ptag{ position:absolute; top:10px; left:10px; z-index:2; background:var(--ink); color:#fff; font-size:10.5px; font-weight:600; letter-spacing:.05em; padding:4px 10px; border-radius:99px; }
+.ptag.sale{ background:var(--sale); }
+.ptag.new{ background:var(--accent); }
+.pfav{ position:absolute; top:8px; right:8px; z-index:2; width:34px; height:34px; border-radius:99px; border:1px solid var(--line); background:#fff; color:var(--ink); font-size:16px; display:flex; align-items:center; justify-content:center; transition:.2s; }
+.pfav:hover{ border-color:var(--ink); }
+.pfav.on{ background:var(--ink); color:#fff; border-color:var(--ink); }
+.pinfo{ padding:12px 2px 0; display:flex; flex-direction:column; gap:5px; flex:1; }
+.pcat{ font-size:10px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:#6d6d6d; }
+.pname{ font-size:14px; font-weight:400; line-height:1.45; color:var(--ink); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:40px; }
+.pcard:hover .pname{ text-decoration:underline; text-underline-offset:3px; }
+.pprice{ font-size:15px; font-weight:600; letter-spacing:.03em; display:flex; gap:8px; align-items:baseline; }
+.pprice s{ color:#9a9a9a; font-weight:400; font-size:12.5px; }
+.pprice .sale{ color:var(--sale); }
+.padd{ margin-top:10px; width:100%; padding:11px; background:transparent; border:1px solid var(--line-strong); font-size:12px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--ink); display:flex; align-items:center; justify-content:center; gap:7px; transition:.2s; }
+.padd:hover{ background:var(--ink); color:#fff; border-color:var(--ink); }
+.padd:active{ transform:scale(.98); }
+.rowscroll{ display:flex; gap:20px; overflow-x:auto; padding:4px 2px 16px; scroll-snap-type:x mandatory; }
+.rowscroll .pcard{ flex:0 0 230px; scroll-snap-align:start; }
+.rowscroll::-webkit-scrollbar{ height:7px; }
+.rowscroll::-webkit-scrollbar-thumb{ background:#cfcfcf; border-radius:99px; }
+
+/* ---------- Bandeaux marques ---------- */
+.brands{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+.brand{ border-radius:var(--r); color:#fff; padding:26px; min-height:170px; display:flex; flex-direction:column; justify-content:space-between; gap:12px; }
+.brand h3{ font-size:20px; font-weight:600; display:flex; align-items:center; gap:9px; }
+.brand p{ font-size:13px; line-height:1.55; opacity:.92; }
+.brand a{ align-self:flex-start; font-size:11px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; border:1px solid rgba(255,255,255,.55); padding:9px 16px; transition:.2s; }
+.brand a:hover{ background:#fff; color:var(--ink); border-color:#fff; }
+.brand.bf{ background:linear-gradient(135deg,#07502c,#149453); }
+.brand.cap{ background:linear-gradient(135deg,#0d47a1,#1e6fd8); }
+.brand.ssr{ background:linear-gradient(135deg,#0a0804,#8a6d1e); }
+
+/* ---------- Bande réassurance ---------- */
+.trust{ border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.trust-in{ max-width:1400px; margin:0 auto; padding:36px var(--pad); display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:26px; }
+.titem{ display:flex; gap:14px; align-items:center; }
+.titem .ic{ width:48px; height:48px; flex:0 0 48px; border-radius:99px; border:1px solid var(--line-strong); display:flex; align-items:center; justify-content:center; font-size:21px; }
+.titem h4{ font-size:14.5px; font-weight:600; }
+.titem p{ font-size:12.5px; color:var(--body); }
+
+/* ---------- Newsletter ---------- */
+.news{ background:var(--tile); text-align:center; padding:56px var(--pad); }
+.news h2{ font-size:24px; font-weight:500; margin-bottom:8px; }
+.news p{ color:var(--body); font-size:14px; margin-bottom:20px; }
+.news form{ display:flex; max-width:420px; margin:0 auto; }
+.news input{ flex:1; border:1px solid var(--line-strong); border-right:none; padding:13px 16px; background:#fff; }
+.news input:focus{ outline:none; border-color:var(--ink); }
+
+/* ---------- Boutique : filtres ---------- */
+.shop-layout{ display:grid; grid-template-columns:230px 1fr; gap:34px; align-items:start; }
+.filters{ position:sticky; top:96px; display:flex; flex-direction:column; gap:26px; }
+.fgroup h4{ font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid var(--line); }
+.fcat{ display:flex; flex-direction:column; gap:2px; }
+.fcat button{ text-align:left; background:none; border:none; padding:7px 8px; font-size:13.5px; color:var(--body); display:flex; justify-content:space-between; border-radius:var(--r); }
+.fcat button:hover{ background:var(--tile); color:var(--ink); }
+.fcat button.on{ background:var(--ink); color:#fff; }
+.fcat button small{ opacity:.6; }
+.fprice{ display:flex; gap:8px; align-items:center; }
+.fprice input{ width:100%; border:1px solid var(--line-strong); padding:9px 10px; font-size:13px; }
+.fprice input:focus{ outline:none; border-color:var(--ink); }
+.shop-bar{ display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:20px; flex-wrap:wrap; }
+.shop-bar .count{ font-size:13.5px; color:var(--body); }
+.shop-bar select{ border:1px solid var(--line-strong); padding:10px 12px; background:#fff; }
+.chips{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px; }
+.chip{ display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:600; border:1px solid var(--line-strong); padding:6px 12px; border-radius:99px; background:#fff; }
+.chip i{ font-size:13px; }
+.empty{ text-align:center; padding:70px 20px; color:var(--body); }
+.empty i{ font-size:44px; display:block; margin-bottom:12px; color:#c9c9c9; }
+.loadmore{ display:flex; justify-content:center; margin-top:30px; }
+
+/* ---------- Page produit ---------- */
+.prod{ display:grid; grid-template-columns:1.05fr 1fr; gap:48px; align-items:start; }
+.prod-img{ position:sticky; top:110px; }
+.prod-img .pimg{ aspect-ratio:1/1; }
+.prod-info h1{ font-size:28px; font-weight:500; line-height:1.25; margin:4px 0 10px; }
+.prod-price{ font-size:22px; font-weight:600; display:flex; gap:12px; align-items:baseline; margin-bottom:4px; }
+.prod-price s{ color:#9a9a9a; font-weight:400; font-size:16px; }
+.prod-price .sale{ color:var(--sale); }
+.save-tag{ display:inline-block; background:var(--sale); color:#fff; font-size:11px; font-weight:700; letter-spacing:.05em; padding:3px 10px; border-radius:99px; margin-bottom:14px; }
+.stockline{ display:flex; align-items:center; gap:8px; font-size:13px; color:var(--accent); font-weight:600; margin:10px 0 18px; }
+.stockline .dot{ width:8px; height:8px; border-radius:99px; background:var(--accent); }
+.opt-label{ font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; margin:16px 0 9px; }
+.sizes{ display:flex; gap:8px; flex-wrap:wrap; }
+.size{ min-width:46px; padding:10px 14px; border:1px solid var(--line-strong); background:#fff; font-size:13px; font-weight:600; transition:.15s; }
+.size:hover{ border-color:var(--ink); }
+.size.on{ background:var(--ink); color:#fff; border-color:var(--ink); }
+.qty{ display:inline-flex; border:1px solid var(--line-strong); }
+.qty button{ width:44px; height:46px; background:#fff; border:none; font-size:17px; }
+.qty button:hover{ background:var(--tile); }
+.qty input{ width:52px; text-align:center; border:none; font-size:15px; font-weight:600; }
+.qty input:focus{ outline:none; }
+.buyrow{ display:flex; gap:12px; margin:20px 0 12px; flex-wrap:wrap; }
+.buyrow .btn{ flex:1; min-width:200px; padding:15px 22px; }
+.prod-meta{ border-top:1px solid var(--line); margin-top:24px; padding-top:18px; display:flex; flex-direction:column; gap:10px; font-size:13.5px; color:var(--body); }
+.prod-meta div{ display:flex; gap:9px; align-items:center; }
+.prod-meta i{ color:var(--ink); font-size:16px; }
+
+/* ---------- Panier ---------- */
+.cart-layout{ display:grid; grid-template-columns:1fr 360px; gap:40px; align-items:start; }
+.citem{ display:grid; grid-template-columns:96px 1fr auto; gap:18px; padding:20px 0; border-bottom:1px solid var(--line); align-items:center; }
+.citem .pimg{ width:96px; }
+.citem h4{ font-size:14.5px; font-weight:500; line-height:1.4; }
+.citem .sz{ font-size:12px; color:var(--body); margin-top:2px; }
+.citem .unit{ font-size:13px; color:var(--body); margin-top:6px; }
+.citem-right{ display:flex; flex-direction:column; align-items:flex-end; gap:10px; }
+.citem .qty button{ width:34px; height:36px; }
+.citem .qty input{ width:40px; }
+.citem .line-total{ font-weight:600; font-size:15px; }
+.rm{ background:none; border:none; font-size:12px; color:var(--body); text-decoration:underline; text-underline-offset:3px; display:flex; align-items:center; gap:4px; }
+.rm:hover{ color:var(--sale); }
+.summary{ border:1px solid var(--line); padding:24px; position:sticky; top:110px; }
+.summary h3{ font-size:16px; font-weight:600; letter-spacing:.03em; margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--line); }
+.srow{ display:flex; justify-content:space-between; font-size:14px; color:var(--body); margin-bottom:10px; }
+.srow.total{ color:var(--ink); font-weight:700; font-size:17px; border-top:1px solid var(--line); padding-top:14px; margin-top:14px; }
+.summary .btn{ width:100%; margin-top:16px; }
+.summary .note{ font-size:12px; color:var(--body); margin-top:12px; line-height:1.5; display:flex; gap:7px; }
+.summary .note i{ flex:0 0 auto; margin-top:1px; }
+
+/* ---------- Checkout ---------- */
+.co-layout{ display:grid; grid-template-columns:1fr 380px; gap:40px; align-items:start; }
+.fblock{ margin-bottom:30px; }
+.fblock h3{ font-size:15px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; margin-bottom:16px; display:flex; align-items:center; gap:9px; }
+.fblock h3 .n{ width:24px; height:24px; border-radius:99px; background:var(--ink); color:#fff; font-size:12px; display:inline-flex; align-items:center; justify-content:center; }
+.frow{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+.frow.one{ grid-template-columns:1fr; }
+.field label{ display:block; font-size:12px; font-weight:600; letter-spacing:.04em; margin-bottom:6px; }
+.field label em{ color:var(--sale); font-style:normal; }
+.field input,.field select,.field textarea{ width:100%; border:1px solid var(--line-strong); padding:12px 13px; background:#fff; }
+.field input:focus,.field select:focus,.field textarea:focus{ outline:none; border-color:var(--ink); }
+.field .err{ display:none; font-size:11.5px; color:var(--sale); margin-top:4px; }
+.field.bad input,.field.bad select{ border-color:var(--sale); }
+.field.bad .err{ display:block; }
+.paychoice{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+.paym{ border:1px solid var(--line-strong); background:#fff; padding:16px 10px; text-align:center; transition:.15s; }
+.paym i{ font-size:22px; display:block; margin-bottom:6px; }
+.paym b{ font-size:13px; display:block; }
+.paym small{ font-size:11px; color:var(--body); }
+.paym:hover{ border-color:var(--ink); }
+.paym.on{ border-color:var(--ink); background:var(--ink); color:#fff; }
+.paym.on small{ color:rgba(255,255,255,.75); }
+.payinfo{ margin-top:16px; border:1px dashed var(--line-strong); padding:18px; font-size:13.5px; line-height:1.6; display:none; }
+.payinfo.show{ display:block; }
+.payinfo .num{ display:flex; align-items:center; gap:10px; font-size:17px; font-weight:700; margin:10px 0; }
+.payinfo .copy{ border:1px solid var(--line-strong); background:#fff; font-size:11px; font-weight:600; padding:5px 11px; display:inline-flex; gap:5px; align-items:center; }
+.payinfo .copy:hover{ background:var(--ink); color:#fff; border-color:var(--ink); }
+.payinfo ol{ padding-left:18px; display:flex; flex-direction:column; gap:6px; margin-top:8px; }
+.co-summary .citem{ grid-template-columns:64px 1fr auto; padding:14px 0; }
+.co-summary .citem .pimg{ width:64px; }
+
+/* ---------- Confirmation ---------- */
+.confirm{ max-width:620px; margin:0 auto; text-align:center; padding:70px var(--pad); }
+.confirm .big{ width:76px; height:76px; border-radius:99px; background:var(--accent); color:#fff; font-size:38px; display:flex; align-items:center; justify-content:center; margin:0 auto 22px; }
+.confirm h1{ font-size:28px; font-weight:500; margin-bottom:10px; }
+.confirm .num{ font-size:14px; color:var(--body); margin-bottom:24px; }
+.confirm .num b{ color:var(--ink); }
+.confirm .recap{ text-align:left; border:1px solid var(--line); padding:20px; margin:22px 0; }
+
+/* ---------- Contact ---------- */
+.contact-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+.ccard{ border:1px solid var(--line); padding:26px; text-align:center; }
+.ccard i{ font-size:28px; margin-bottom:10px; display:block; }
+.ccard h4{ font-size:15px; font-weight:600; margin-bottom:5px; }
+.ccard p{ font-size:13px; color:var(--body); margin-bottom:14px; }
+
+/* ---------- Footer ---------- */
+footer{ border-top:1px solid var(--line); margin-top:54px; }
+.foot-in{ max-width:1400px; margin:0 auto; padding:44px var(--pad) 24px; display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:34px; }
+.foot-in h4{ font-size:12px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; margin-bottom:16px; }
+.foot-in p{ font-size:13px; color:var(--body); line-height:1.6; }
+.foot-in ul{ list-style:none; display:flex; flex-direction:column; gap:9px; }
+.foot-in ul a{ font-size:13px; color:var(--body); }
+.foot-in ul a:hover{ color:var(--ink); text-decoration:underline; text-underline-offset:3px; }
+.foot-logo{ height:44px; margin-bottom:14px; }
+.foot-pay{ display:flex; gap:8px; margin-top:14px; flex-wrap:wrap; }
+.foot-pay span{ border:1px solid var(--line); font-size:11px; font-weight:600; padding:5px 10px; }
+.foot-bottom{ border-top:1px solid var(--line); text-align:center; font-size:12px; color:var(--body); padding:16px; }
+
+/* ---------- Toast ---------- */
+#toast{ position:fixed; left:50%; bottom:26px; transform:translate(-50%,20px); z-index:1200; background:var(--ink); color:#fff; font-size:13.5px; font-weight:600; padding:13px 22px; display:flex; align-items:center; gap:9px; opacity:0; pointer-events:none; transition:.3s; max-width:90vw; }
+#toast.show{ opacity:1; transform:translate(-50%,0); }
+#toast i{ color:#7ee2a8; }
+
+/* ---------- Navigation mobile ---------- */
+#bnav{ position:fixed; left:0; right:0; bottom:0; z-index:950; display:none; justify-content:space-around; background:#fff; border-top:1px solid var(--line); padding:6px 4px calc(6px + env(safe-area-inset-bottom)); box-shadow:0 -4px 20px rgba(18,18,18,.06); }
+#bnav a{ flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; font-size:10px; font-weight:600; color:#6d6d6d; padding:4px 2px; position:relative; }
+#bnav a i{ font-size:21px; }
+#bnav a.on{ color:var(--ink); }
+#bnav .fabwa{ margin-top:-24px; width:54px; height:54px; flex:0 0 54px; border-radius:99px; background:#1faa53; color:#fff; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(31,170,83,.4),0 0 0 5px #fff; }
+#bnav .fabwa i{ font-size:25px; }
+#bnav .bub{ position:absolute; top:0; right:calc(50% - 20px); min-width:17px; height:17px; padding:0 4px; border-radius:99px; background:var(--sale); color:#fff; font-size:10px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+#bnav .bub[data-n="0"]{ display:none; }
+
+/* ---------- Reveal ---------- */
+@media (prefers-reduced-motion: no-preference){
+  .rv{ opacity:0; transform:translateY(12px); }
+  .rv.in{ opacity:1; transform:none; transition:opacity .5s ease, transform .5s ease; }
+}
+
+/* ---------- Responsive ---------- */
+@media(max-width:1050px){
+  .prod{ grid-template-columns:1fr; gap:26px; }
+  .prod-img{ position:static; }
+  .cart-layout,.co-layout{ grid-template-columns:1fr; }
+  .summary{ position:static; }
+}
+@media(max-width:900px){
+  :root{ --pad:16px; }
+  #bnav{ display:flex; }
+  body{ padding-bottom:74px; }
+  .hact .lbl{ display:none; }
+  .header-in{ gap:12px; flex-wrap:wrap; padding:10px var(--pad); }
+  .logo img{ height:40px; }
+  .hsearch{ order:3; flex:1 1 100%; max-width:none; }
+  .hacts{ margin-left:auto; gap:14px; }
+  .hero h1{ font-size:30px; }
+  .hero-in{ padding:48px var(--pad) 58px; }
+  .sec{ padding:30px var(--pad); }
+  .sec-head h2{ font-size:20px; }
+  .shop-layout{ grid-template-columns:1fr; }
+  .filters{ position:static; flex-direction:row; flex-wrap:wrap; gap:16px; border:1px solid var(--line); padding:16px; }
+  .fgroup{ flex:1 1 200px; }
+  .frow{ grid-template-columns:1fr; }
+  .paychoice{ grid-template-columns:1fr; }
+  .pgrid{ grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:18px 12px; }
+  .citem{ grid-template-columns:74px 1fr; }
+  .citem-right{ grid-column:1 / -1; flex-direction:row; justify-content:space-between; align-items:center; }
+  .foot-in{ grid-template-columns:1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===================== BARRE D'ANNONCE ===================== -->
+<div class="announce"><i class="ti ti-truck-delivery"></i> Livraison J+1 partout à Dakar · Paiement Wave, Orange Money ou à la livraison</div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header">
+  <div class="header-in">
+    <a class="logo" href="#/"><img src="ccl-logo.png" alt="Crystal Company Limited"></a>
+    <form class="hsearch" onsubmit="event.preventDefault(); go('#/boutique?q='+encodeURIComponent(this.q.value.trim()));">
+      <input name="q" id="hsearch-input" type="search" placeholder="Rechercher un produit, une marque..." autocomplete="off">
+      <button type="submit" aria-label="Rechercher"><i class="ti ti-search"></i></button>
+    </form>
+    <div class="hacts">
+      <a class="hact" href="#/favoris"><i class="ti ti-heart"></i><span class="lbl">Favoris</span><span class="bub" id="bub-fav" data-n="0">0</span></a>
+      <a class="hact" href="#/panier"><i class="ti ti-shopping-bag"></i><span class="lbl">Panier</span><span class="bub" id="bub-cart" data-n="0">0</span></a>
+    </div>
+  </div>
+  <nav class="catnav" id="catnav">
+    <a href="#/" data-nav="home">Accueil</a>
+    <a href="#/boutique" data-nav="shop">Boutique</a>
+    <a href="#/boutique?cat=mode">Mode</a>
+    <a href="#/boutique?cat=beaute">Beauté</a>
+    <a href="#/boutique?cat=alim">Alimentation</a>
+    <a href="#/boutique?cat=maison-new">Maison</a>
+    <a href="#/boutique?cat=tech">High-Tech</a>
+    <a href="#/boutique?cat=papier">Papeterie</a>
+    <a href="#/boutique?cat=flash" class="promo">Promos</a>
+    <a href="#/contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ===================== VUES ===================== -->
+<main id="app" aria-live="polite"></main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="foot-in">
+    <div>
+      <img class="foot-logo" src="ccl-logo.png" alt="CCL">
+      <p>Crystal Company Limited — votre marketplace de confiance au Sénégal. Mode, maison, beauté, alimentation, papeterie et plus, livrés en 24h à Dakar.</p>
+      <div class="foot-pay"><span>WAVE</span><span>ORANGE MONEY</span><span>ESPÈCES À LA LIVRAISON</span></div>
+    </div>
+    <div>
+      <h4>Boutique</h4>
+      <ul>
+        <li><a href="#/boutique">Tous les produits</a></li>
+        <li><a href="#/boutique?cat=flash">Promotions</a></li>
+        <li><a href="#/boutique?cat=mode">Mode</a></li>
+        <li><a href="#/boutique?cat=beaute">Parfums &amp; Beauté</a></li>
+        <li><a href="#/boutique?cat=alim">Alimentation</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Nos marques</h4>
+      <ul>
+        <li><a href="#/boutique?cat=alim">Best Foods</a></li>
+        <li><a href="capital.html">Papier Capital</a></li>
+        <li><a href="ssr.html">Sen Senteurs Royal</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Aide</h4>
+      <ul>
+        <li><a href="#/contact">Nous contacter</a></li>
+        <li><a href="https://wa.me/221774976364" target="_blank" rel="noopener">WhatsApp : 77 497 63 64</a></li>
+        <li><a href="mailto:crystalecom2026@gmail.com">crystalecom2026@gmail.com</a></li>
+        <li><a href="#/panier">Mon panier</a></li>
+        <li><a href="#/favoris">Mes favoris</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">© <span id="year"></span> Crystal Company Limited — Dakar, Sénégal. Tous droits réservés.</div>
+</footer>
+
+<!-- ===================== NAVIGATION MOBILE ===================== -->
+<nav id="bnav" aria-label="Navigation mobile">
+  <a href="#/" data-nav="home"><i class="ti ti-home"></i>Accueil</a>
+  <a href="#/boutique" data-nav="shop"><i class="ti ti-building-store"></i>Boutique</a>
+  <a class="fabwa" href="https://wa.me/221774976364" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+  <a href="#/favoris"><i class="ti ti-heart"></i>Favoris<span class="bub" id="bub-fav2" data-n="0">0</span></a>
+  <a href="#/panier"><i class="ti ti-shopping-bag"></i>Panier<span class="bub" id="bub-cart2" data-n="0">0</span></a>
+</nav>
+
+<div id="toast" role="status"></div>
+
+<script>
+/* ============================================================
+   CCL E-COMMERCE PRO — Application
+   Architecture : mini-routeur par hash → vraies pages
+   #/               Accueil
+   #/boutique       Catalogue (filtres, tri, recherche)
+   #/produit/ID     Fiche produit
+   #/panier         Panier
+   #/commande       Checkout (livraison + paiement)
+   #/confirmation   Confirmation de commande
+   #/favoris        Liste de souhaits
+   #/contact        Contact & infos
+   ============================================================ */
+
+/* ---------- DONNÉES ---------- */
+const products = [
+    /* --- CHAISES & DÉTENTE (tes fichiers existants) --- */
+    { id:8, cat:'maison-new', badge:'2en1', name:'ROBO 2en1 Silver Crest Mixeur SC-1589', price:35000, image:'robot_mixeur_silver_crest_2en1_rouge.jpeg' },
+    { id:9, cat:'maison-new', badge:'Pratique', name:'Panier de Rangement 5 Niveaux Rotatif', price:12000, image:'panier-rangement-5niveaux-rotatif.jpeg' },
+    { id:10, cat:'maison-new', badge:'Top', name:'Mixeur Blender 3en1 Saachi NL-BL-4361', price:28000, image:'mixeur-blender-3en1-saachi.jpeg' },
+    /* Peufs gonflables -> aussi dans "Nouveaux produits" (détente) */
+    { id:11, cat:'maison-new', badge:'Détente', name:'Peuf Gonflable 2 pièces – Rouge', price:22000, image:'peuf-gonflable-2pcs-rouge.jpg' },
+    { id:12, cat:'maison-new', badge:'Détente', name:'Peuf Gonflable 2 pièces – Violet', price:22000, image:'peuf-gonflable-2pcs-violet.jpg' },
+    { id:13, cat:'maison-new', badge:'Détente', name:'Peuf Gonflable 2 pièces – Gris', price:22000, image:'peuf-gonflable-2pcs-gris.jpg' },
+
+    /* --- FLASH VENTES (promos) --- */
+    { id:101, cat:'flash', badge:'Promo', name:'Ensemble Tailleur Femme Beige', price:17000, old:24000, image:'ensemble-tailleur-beige-femme.jpg' },
+    { id:102, cat:'flash', badge:'Promo', name:"Parfum d'Ambiance Musc Cotton 500ml", price:9000, old:13000, image:'parfum-musc-cotton-500ml.jpg' },
+    { id:103, cat:'flash', badge:'Promo', name:'Tapis de Bain 3 pièces – Noir', price:7000, old:10000, image:'tapis-salle-de-bain-3pcs-noir.jpg' },
+    { id:104, cat:'flash', badge:'Promo', name:'Peuf Gonflable 2 pièces – Rouge', price:19000, old:26000, image:'peuf-gonflable-2pcs-rouge.jpg' },
+
+    /* --- MODE --- */
+    { id:121, cat:'mode', badge:'Nouveau', name:'Ensemble Tailleur Femme Beige', price:22000, image:'ensemble-tailleur-beige-femme.jpg' },
+    { id:122, cat:'mode', badge:'Top', name:'Pantalon Large Imprimé (Bazin)', price:18000, image:'pantalon-large-bazin-noir-blanc.jpg' },
+    { id:123, cat:'mode', badge:'Luxe', name:'Ensemble « No Feelings » Crème', price:20000, image:'ensemble-no-feelings-creme.jpg' },
+    { id:124, cat:'mode', badge:'Nouveau', name:'Ensemble Sport « 22/27 » Vert', price:20000, image:'ensemble-22-27-vert.jpg' },
+    { id:125, cat:'mode', name:'Casquette ALO Noir', price:6000, image:'casquette-alo-noir.jpg' },
+
+    /* --- PARFUMS & BEAUTÉ --- */
+    { id:131, cat:'beaute', badge:'Luxe', name:'Coffret Sen Senteurs Royal (SSR)', price:25000, image:'ssr-sen-senteurs-royal-logo.png' },
+    { id:132, cat:'beaute', badge:'Top', name:"Parfum d'Ambiance Musc Cotton 500ml", price:12000, image:'parfum-musc-cotton-500ml.jpg' },
+
+    /* --- ALIMENTATION & ÉPICERIE --- */
+    { id:141, cat:'alim', badge:'Best Foods', name:'Tamarin Best Foods 10 Kg (Origine Inde)', price:8000, image:'bestfoods-tamarin-10kg.jpg' },
+    { id:142, cat:'alim', badge:'Best Foods', name:'Clou de Girofle Best Foods 10 Kg', price:13000, image:'bestfoods-clou-de-girofle-10kg.jpg' },
+    { id:143, cat:'alim', badge:'Best Foods', name:'Petits Pois Best Foods 20 Kg (Argentine)', price:16000, image:'bestfoods-petits-pois-20kg.jpg' },
+    { id:144, cat:'alim', badge:'Frais', name:'Poulet de Chair Frais Linguère (le Kg)', price:3500, image:'linguere-poulet-chair-frais.jpg' },
+
+    /* --- MAISON & DÉCO --- */
+    { id:151, cat:'maisondeco', badge:'Top', name:'Tapis de Bain 3 pièces – Noir', price:9000, image:'tapis-salle-de-bain-3pcs-noir.jpg' },
+    { id:152, cat:'maisondeco', name:'Tapis de Bain 3 pièces – Beige', price:9000, image:'tapis-salle-de-bain-3pcs-beige.jpg' },
+    { id:153, cat:'maisondeco', name:'Tapis de Bain 3 pièces – Marron', price:9000, image:'tapis-salle-de-bain-3pcs-marron.jpg' },
+    { id:154, cat:'maisondeco', badge:'Luxe', name:'Ensemble Vaisselle 32 pièces VIP Noir', price:35000, image:'ensemble-vaisselle-32pcs-vip-noir.jpg' },
+    { id:155, cat:'maisondeco', badge:'Nouveau', name:'Ensemble Bol HASNA Inox (4 pièces)', price:18000, image:'ensemble-bol-hasna-inox.jpg' },
+    { id:156, cat:'maisondeco', name:'Peuf Gonflable 2 pièces – Violet', price:22000, image:'peuf-gonflable-2pcs-violet.jpg' },
+    { id:157, cat:'maisondeco', name:'Peuf Gonflable 2 pièces – Gris', price:22000, image:'peuf-gonflable-2pcs-gris.jpg' },
+
+    /* --- MODE (2e lot) --- */
+    { id:203, cat:'mode', badge:'Nouveau', name:'Ensemble Gilet + Chemise – Noir', price:18000, image:'ensemble-gilet-chemise-noir.jpg' },
+    { id:204, cat:'mode', name:'Ensemble Gilet + Chemise – Bleu Roi', price:18000, image:'ensemble-gilet-chemise-bleu-roi.jpg' },
+    { id:205, cat:'mode', name:'Ensemble Gilet + Chemise – Bordeaux', price:18000, image:'ensemble-gilet-chemise-bordeaux.jpg' },
+    { id:206, cat:'mode', name:'Ensemble Gilet + Chemise – Vieux Rose', price:18000, image:'ensemble-gilet-chemise-vieux-rose.jpg' },
+    { id:207, cat:'mode', name:'Ensemble Gilet + Chemise – Pêche', price:18000, image:'ensemble-gilet-chemise-peche.jpg' },
+    { id:208, cat:'mode', badge:'Luxe', name:'Robe Salopette Longue – Violet/Bleu', price:20000, image:'robe-salopette-violet-bleu.jpg' },
+    { id:209, cat:'mode', name:'Robe Salopette Longue – Marron/Bordeaux', price:20000, image:'robe-salopette-marron-bordeaux.jpg' },
+    { id:210, cat:'mode', badge:'Hot', name:'Robe Salopette Longue – Rose Fuchsia', price:20000, image:'robe-salopette-rose-fuchsia.jpg' },
+    { id:211, cat:'mode', name:'Ensemble Top + Jupe Longue – Terracotta', price:17000, image:'ensemble-top-jupe-terracotta.jpg' },
+    { id:212, cat:'mode', name:'Ensemble Top + Jupe Longue – Rose', price:17000, image:'ensemble-top-jupe-rose.jpg' },
+    { id:213, cat:'mode', badge:'Nouveau', name:'Abaya Voile Élégante', price:25000, image:'abaya-voile-elegante.jpg' },
+
+    /* --- BEAUTÉ (2e lot) --- */
+
+    /* --- ALIMENTATION (Best Foods, 2e lot) --- */
+    { id:232, cat:'alim', badge:'Best Foods', name:'Poivre Noir Best Foods 25 Kg', price:20000, image:'bestfoods-poivre-noir-25kg.jpg' },
+
+    /* --- MAISON & CUISINE (2e lot) --- */
+    { id:241, cat:'maisondeco', name:'Bouteilles Condiment 3 pièces', price:4000, image:'bouteilles-condiment-3pcs.jpg' },
+    { id:242, cat:'maisondeco', name:'Tamis Inox 4 Mailles (4 pièces)', price:9000, image:'tamis-inox-4-mailles-4pcs.jpg' },
+
+    /* --- SPORT (2e lot) --- */
+
+    /* --- MODE (3e lot : sacs, boubous, chaussures, lingerie) --- */
+    { id:301, cat:'mode', badge:'Top', name:'Sac à Main Élégant – Vert', price:14000, image:'sac-a-main-vert.jpg' },
+    { id:302, cat:'mode', name:'Sac à Main Cadenas – Vert Foncé', price:16000, image:'sac-a-main-cadenas-vert-fonce.jpg' },
+    { id:303, cat:'mode', badge:'Hot', name:'Sac à Main Cadenas – Rose', price:16000, image:'sac-a-main-cadenas-rose.jpg' },
+    { id:304, cat:'mode', name:'Sac à Main Cadenas – Lilas', price:16000, image:'sac-a-main-cadenas-lilas.jpg' },
+    { id:305, cat:'mode', badge:'Luxe', name:'Sac à Main Premium – Bordeaux', price:18000, image:'sac-a-main-premium-bordeaux.jpg' },
+    { id:306, cat:'mode', name:'Sac à Main Chic – Noir & Doré', price:18000, image:'sac-a-main-noir-dore.jpg' },
+    { id:307, cat:'mode', name:'Sac à Main Classique – Camel', price:17000, image:'sac-a-main-camel-classique.jpg' },
+    { id:308, cat:'mode', badge:'Nouveau', name:'Ensemble Boubou Femme – Mauve', price:35000, image:'ensemble-boubou-femme-mauve.jpg' },
+    { id:309, cat:'mode', name:'Ensemble Boubou Femme – Blanc Brodé', price:35000, image:'ensemble-boubou-femme-blanc.jpg' },
+    { id:310, cat:'mode', name:'Sandales Plates Cloutées – Marron', price:9000, image:'sandales-cloutees-marron.jpg' },
+    { id:311, cat:'mode', name:'Lot de Soutiens-Gorge (5 coloris)', price:4000, image:'soutiens-gorge-lot-couleurs.jpg' },
+    { id:312, cat:'mode', name:'Foulard / Turban Satiné', price:3500, image:'foulard-turban-satine.png' },
+
+    /* --- ALIMENTATION (3e lot) --- */
+    { id:321, cat:'alim', name:'Poudre de Lait Yoghurt King (sac)', price:18000, image:'yoghurt-king-lait-poudre.jpg' },
+    { id:322, cat:'alim', badge:'Best Foods', name:'Raisins Secs Best Foods 10 Kg (Inde)', price:14000, image:'bestfoods-raisins-secs-10kg.jpg' },
+    { id:323, cat:'alim', badge:'Best Foods', name:'Ail Frais Best Foods 10 Kg', price:12000, image:'bestfoods-ail-garlic-10kg.jpg' },
+    { id:324, cat:'alim', name:'Tamarin en Vrac (carton)', price:7000, image:'tamarin-vrac-carton.jpg' },
+
+    /* --- AUTOMOBILES (nouvelle catégorie) --- */
+    { id:331, cat:'auto', badge:'Luxe', name:'Toyota Land Cruiser Prado VX', price:32000000, image:'toyota-prado-vx-blanc.jpg' },
+    { id:332, cat:'auto', badge:'Top', name:'Peugeot 308', price:8500000, image:'peugeot-308-blanche.jpg' },
+
+    /* --- PAPETERIE CAPITAL (nouvelle catégorie) --- */
+    { id:341, cat:'papier', badge:'Capital', name:'Ramette Papier A4 Capital 80g (500 feuilles)', price:3000, image:'capital-papier-a4-affiche.jpg' },
+    { id:342, cat:'papier', badge:'Capital', name:'Carton Papier A4 Capital (5 ramettes)', price:14000, image:'capital-papier-a4-affiche.jpg' },
+    { id:343, cat:'papier', badge:'Double A', name:'Ramette A4 Double A Premium 80g (500 feuilles)', price:3500, image:'double-a-ramette-a4.jpg' },
+    { id:344, cat:'papier', badge:'Double A', name:'Pack 5 Ramettes A4 Double A', price:16000, image:'double-a-pack-5-ramettes.jpg' },
+    { id:345, cat:'papier', badge:'Double A', name:'Carton A4 Double A (10 ramettes)', price:30000, image:'double-a-carton-a4.jpg' },
+
+    /* --- HIGH-TECH (placeholders) --- */
+
+    /* --- SPORT (placeholders) --- */
+    // --- Ajouts : tissus wax & dentelle, parfums, sport ---
+    { id:420, cat:'mode', badge:'Nouveau', name:'Ensemble Wax + Dentelle Violet & Or (6 yards)', price:25000, image:'wax-dentelle-violet-or.jpg' },
+    { id:421, cat:'mode', name:'Ensemble Wax + Dentelle Rose, Violet & Jaune', price:25000, image:'wax-dentelle-rose-violet-jaune.jpg' },
+    { id:422, cat:'mode', name:'Ensemble Wax + Dentelle Rose & Violet', price:25000, image:'wax-dentelle-rose-violet.jpg' },
+    { id:423, cat:'mode', name:'Wax Golden de Woodim Jaune & Rose (6 yards)', price:18000, image:'wax-golden-woodim-jaune-rose.jpg' },
+    { id:424, cat:'mode', name:'Ensemble Wax + Dentelle Turquoise & Bleu', price:25000, image:'wax-dentelle-turquoise-bleu.jpg' },
+    { id:425, cat:'mode', name:'Ensemble Wax + Dentelle Gris & Orange', price:25000, image:'wax-dentelle-gris-orange.jpg' },
+    { id:426, cat:'mode', name:'Ensemble Wax + Dentelle Orange & Jaune', price:25000, image:'wax-dentelle-orange-jaune.jpg' },
+    { id:427, cat:'mode', name:'Wax Golden de Woodim Bleu & Jaune (6 yards)', price:18000, image:'wax-golden-woodim-bleu-jaune.jpg' },
+    { id:428, cat:'mode', name:'Ensemble Wax + Dentelle Vert & Orange', price:25000, image:'wax-dentelle-vert-orange.jpg' },
+    { id:429, cat:'beaute', badge:'Luxe', name:'Parfum Scandal Homme – Eau de Toilette', price:45000, image:'parfum-scandal-homme.jpg' },
+    { id:430, cat:'beaute', badge:'Luxe', name:"Parfum J'adore – Eau de Parfum Femme", price:55000, image:'parfum-jadore-femme.jpg' },
+    { id:431, cat:'beaute', badge:'Luxe', name:'Parfum Xerjoff Erba Pura', price:60000, image:'parfum-xerjoff-erba-pura.jpg' },
+    { id:432, cat:'beaute', badge:'Luxe', name:'Parfum Guerlain Cherry Oud', price:65000, image:'parfum-guerlain-cherry-oud.jpg' },
+    { id:433, cat:'sport', name:'Ballon de Basket Sipdeng (Indoor/Outdoor)', price:8000, image:'ballon-basket-sipdeng.jpg' },
+    { id:214, cat:'sport', name:'Ballon de Volleyball N°5', price:6000, image:'ballon-volleyball-no5.jpg' },
+    { id:215, cat:'sport', badge:'Luxe', name:"Vélo d'Appartement Spinning Klb-5088", price:180000, image:'velo-appartement-spinning-klb5088.jpg' },
+
+    /* --- HIGH-TECH : Audio & Accessoires (ajouts) --- */
+    { id:400, cat:'tech', name:'Chargeur Rapide + Câble Lightning (Bloc + Câble)', price:5000, image:'chargeur-lightning-complet.jpg' },
+    { id:401, cat:'tech', name:'Câble USB-C vers Lightning 1m', price:3000, image:'cable-usbc-lightning-1m.jpg' },
+    { id:402, cat:'tech', badge:'Top', name:'Écouteurs Sans Fil Pro 5 (Boîtier)', price:7000, image:'ecouteurs-airpods-pro5.jpg' },
+    { id:403, cat:'tech', badge:'Promo', name:'Pack Casque Bluetooth + Écouteurs Sans Fil', price:5000, image:'casque-airpods-pack.jpg' },
+    { id:404, cat:'tech', name:'Écouteurs Sans Fil 2 (Boîtier de Charge)', price:6000, image:'ecouteurs-airpods-2.jpg' },
+    { id:405, cat:'tech', badge:'Nouveau', name:'Écouteurs Sans Fil 3 (Boîtier de Charge)', price:7000, image:'ecouteurs-airpods-3.jpg' },
+    { id:406, cat:'tech', name:'Écouteurs X5 TWS Perfect Fit (Affichage LED)', price:6000, image:'ecouteurs-x5-tws.jpg' },
+    { id:407, cat:'tech', badge:'Top', name:'Casque Bluetooth P9 Noir', price:6000, image:'casque-p9-noir.jpg' },
+    { id:408, cat:'tech', badge:'Promo', name:'Casque P9 Pro Max + Écouteurs AirPod3 (Pack Bass)', price:8000, image:'casque-p9-promax-airpod3.jpg' },
+    { id:409, cat:'tech', name:'Écouteurs Métal KM-Mini 3 (Sans Fil)', price:5000, image:'ecouteurs-km-mini3-metal.jpg' },
+    { id:410, cat:'tech', badge:'Nouveau', name:'Écouteurs Clip Open-Ear Violet', price:5000, image:'ecouteurs-clip-violet.jpg' },
+    { id:411, cat:'tech', badge:'Luxe', name:'Casque Bose 700 Bluetooth', price:35000, image:'casque-bose-700.jpg' },
+    { id:412, cat:'tech', name:'Pack Écouteurs Filaires Blue Spectrum (Jack 3.5)', price:1500, image:'ecouteurs-filaires-blue-spectrum.jpg' },
+    { id:413, cat:'tech', badge:'Sport', name:'Écouteurs Sport Tour de Cou Bluetooth', price:6000, image:'ecouteurs-sport-tourdecou.jpg' },
+    { id:414, cat:'tech', name:'Câble 3-en-1 (USB-C / Micro / Lightning)', price:2500, image:'cable-3en1.jpg' },
+    { id:415, cat:'tech', name:'Écouteurs Clip Open-Ear Noir', price:5000, image:'ecouteurs-clip-noir.jpg' },
+    { id:416, cat:'tech', name:'Écouteurs Filaires 14 Pro Pop-Up (JH-103F)', price:3000, image:'ecouteurs-filaires-14pro-popup.jpg' },
+    { id:417, cat:'tech', badge:'Nouveau', name:'Écouteurs FreeOWS Open-Ear (Clip Oreille)', price:7000, image:'ecouteurs-freeows-openear.jpg' },
+    { id:418, cat:'tech', badge:'Top', name:'Écouteurs Tour de Cou Bluetooth Écran LED', price:8000, image:'tourdecou-bluetooth-led.jpg' },
+    { id:419, cat:'tech', badge:'Luxe', name:'Samsung Galaxy Buds3 (Boîtier)', price:25000, image:'ecouteurs-galaxy-buds3.jpg' },
+
+    /* --- BEAUTÉ : Coffrets Parfums V.V.Love & Arabes (ajouts) --- */
+    { id:440, cat:'beaute', badge:'Coffret', name:'Coffret Parfum Purple Obsession (Set Complet)', price:7500, image:'coffret-purple-obsession.jpg' },
+    { id:441, cat:'beaute', badge:'Coffret', name:'Coffret Kamrah Dulhan + Charming Vanilla', price:9500, image:'coffret-kamrah-charming-vanilla.jpg' },
+    { id:442, cat:'beaute', badge:'Coffret', name:'Coffret Diamond Aqua (Set Complet)', price:8000, image:'coffret-diamond-aqua.jpg' },
+    { id:443, cat:'beaute', badge:'Coffret', name:'Coffret Musk Tahara + Yara Airbody', price:8000, image:'coffret-musk-tahara-yara.jpg' },
+    { id:444, cat:'beaute', badge:'Coffret', name:'Coffret Yara Rosé Akra (Set Complet)', price:7500, image:'coffret-yara-rose-akra.jpg' },
+    { id:445, cat:'beaute', badge:'Coffret', name:'Coffret Cultural Yara Pink (Set Complet)', price:9000, image:'coffret-yara-pink-cultural.jpg' },
+    { id:446, cat:'beaute', badge:'Coffret', name:'Coffret Barakat 540 Rouge (Set Complet)', price:10000, image:'coffret-barakat-540-rouge.jpg' },
+    { id:447, cat:'beaute', badge:'Coffret', name:'Coffret Fruity Symphony (Mist + Lotion + Crème)', price:7500, image:'coffret-fruity-symphony-rose.jpg' },
+
+    /* --- BEAUTÉ : Parfums EXOTIC V.V.Love (ajouts) --- */
+    { id:448, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Fruity Symphony – Eau de Parfum 100ml', price:12000, image:'exotic-trio-fruity-cloudy-juice.jpg' },
+    { id:449, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Cloudy Candy – Eau de Parfum 100ml', price:12000, image:'exotic-trio-fruity-cloudy-juice.jpg' },
+    { id:450, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Juice Apple – Eau de Parfum 100ml', price:12000, image:'exotic-trio-fruity-cloudy-juice.jpg' },
+    { id:451, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Purple Rose – Eau de Parfum 100ml', price:12000, image:'exotic-quatuor-rose-vanille-pistache.jpg' },
+    { id:452, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Royal Bloom – Eau de Parfum 100ml', price:12000, image:'exotic-quatuor-rose-vanille-pistache.jpg' },
+    { id:453, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Charming Vanilla – Eau de Parfum 100ml', price:12000, image:'exotic-quatuor-rose-vanille-pistache.jpg' },
+    { id:454, cat:'beaute', badge:'Nouveau', name:'Parfum EXOTIC Pistachio Gelato – Eau de Parfum 100ml', price:12000, image:'exotic-quatuor-rose-vanille-pistache.jpg' },
+
+    /* --- BEAUTÉ : Soins (ajouts) --- */
+    { id:455, cat:'beaute', name:'Lip Serum Acide Hyaluronique (Kiss Beauty)', price:2500, image:'lip-serum-acide-hyaluronique.jpg' },
+    { id:456, cat:'beaute', badge:'Top', name:'Crème Solaire GINBI Protection SPF50+ (50ml)', price:5000, image:'creme-solaire-ginbi-spf50.jpg' },
+    { id:457, cat:'beaute', name:'Faux Ongles Déco Nœud Rose (Set 24 pièces)', price:3000, image:'faux-ongles-noeud-rose.jpg' },
+    { id:458, cat:'beaute', name:'Faux Ongles Déco Cœur & Glitter (Set 24 pièces)', price:3000, image:'faux-ongles-coeur-glitter.jpg' },
+
+    /* --- MODE : Sacs & Chaussures (ajouts) --- */
+    { id:459, cat:'mode', badge:'Luxe', name:'Sac à Bandoulière Dionysus Vert (Chaîne)', price:35000, image:'sac-gucci-dionysus-vert.jpg' },
+    { id:460, cat:'mode', badge:'Top', name:'Mules à Talon Fleur Satin Peony King (Rouge/Marron/Noir)', price:12000, image:'mules-fleur-peony-king.jpg' },
+
+    /* --- MODE : Chaussures & Sacs (ajouts lot 3) --- */
+    { id:461, cat:'mode', name:'Sandales Plates Lanières Strass Noir', price:9000, image:'sandales-noires-lanieres-strass.jpg' },
+    { id:462, cat:'mode', name:'Sandales Plates Tressées Blanc (Bride Cheville)', price:9000, image:'sandales-blanches-tressees-bride.jpg' },
+    { id:463, cat:'mode', badge:'Top', name:'Baskets Nike Dunk Low Rose', price:45000, image:'baskets-nike-dunk-low-rose.jpg' },
+    { id:464, cat:'mode', name:'Sandales Confort Double Bride Blanc', price:8000, image:'sandales-blanches-double-bride.jpg' },
+    { id:465, cat:'mode', name:'Sandales Plateforme Croisées Corde Jaune', price:9000, image:'sandales-jaunes-croisees-corde.jpg' },
+    { id:466, cat:'mode', name:'Sandales Plates Croisées Tong Noir', price:8000, image:'sandales-noires-croisees-tong.jpg' },
+    { id:467, cat:'mode', badge:'Top', name:'Sabots Crocs Yukon Kaki (Homme)', price:15000, image:'sabots-crocs-yukon-kaki.jpg' },
+    { id:468, cat:'mode', badge:'Nouveau', name:'Sac Cabas Graffiti + Pompon Nuage (Noir/Rose/Blanc)', price:14000, image:'cabas-graffiti-pompon-nuage.jpg' },
+    { id:469, cat:'mode', name:'Lunettes Anti-Lumière Bleue Monture Noire', price:8000, image:'lunettes-anti-lumiere-bleue-noir.jpg' },
+    { id:470, cat:'mode', badge:'Luxe', name:'Pack Lunettes de Soleil + Coque iPhone Cuir Bleu', price:18000, image:'pack-lunettes-coque-iphone-bleu.jpg' },
+
+    /* --- MAISON & DÉCO : Lits & Rangement (ajouts lot 3) --- */
+    { id:471, cat:'maisondeco', badge:'Luxe', name:'Lit en Bois Massif Clair (Tête de Lit à Lattes)', price:250000, image:'lit-bois-massif-clair.jpg' },
+    { id:472, cat:'maisondeco', name:'Lit Wengé Moderne Bandeau (2 Places)', price:180000, image:'lit-wenge-bandeau.jpg' },
+    { id:473, cat:'maisondeco', name:'Lit Chêne Gris Contemporain (1 Place)', price:120000, image:'lit-moderne-chene-gris.jpg' },
+    { id:474, cat:'maisondeco', name:'Panier de Rangement Pliable (Plastique)', price:3500, image:'panier-rangement-pliable.jpg' },
+
+    /* --- BEAUTÉ : Accessoires Corps (ajouts lot 3) --- */
+    { id:475, cat:'beaute', name:'Gant de Gommage Silicone (Corps & Visage)', price:2500, image:'gant-gommage-silicone-rose.jpg' },
+    { id:476, cat:'beaute', name:'Brosse de Corps à Sec en Bois (Poils Naturels)', price:4000, image:'brosse-corps-bois-seche.jpg' },
+
+    /* --- HIGH-TECH : Supports PC (ajouts lot 3) --- */
+    { id:477, cat:'tech', name:'Support PC Portable Pliable en Aluminium', price:5000, image:'support-pc-pliable-alu.jpg' },
+    { id:478, cat:'tech', name:'Support PC Réglable + Support Téléphone', price:4000, image:'support-pc-reglable-telephone.jpg' },
+
+    /* --- ALIMENTATION : Best Foods (ajouts lot 4) --- */
+    { id:480, cat:'alim', badge:'Best Foods', name:'Piment Rouge Best Foods 10 Kg (Inde)', price:12000, image:'bestfoods-piment-rouge-10kg.jpg' },
+    { id:481, cat:'alim', badge:'Best Foods', name:'Café Kenya Best Foods 50 Kg (Grains)', price:90000, image:'bestfoods-cafe-kenya-50kg.jpg' },
+    { id:482, cat:'alim', badge:'Best Foods', name:'Café Vert en Grains Best Foods (Vrac)', price:5000, image:'bestfoods-cafe-vert-grains.jpg', video:'bestfoods-cafe-vert-grains.mp4' },
+    { id:483, cat:'alim', badge:'Best Foods', name:'Noix de Muscade Best Foods', price:6000, image:'bestfoods-noix-muscade.jpg', video:'bestfoods-noix-muscade.mp4' },
+    { id:484, cat:'alim', badge:'Best Foods', name:'Épices Best Foods (Sachet Spécial)', price:3000, image:'bestfoods-epices-sachet.jpg' },
+
+    /* --- MODE : Chaussures (ajouts lot 4) --- */
+    { id:485, cat:'mode', badge:'Luxe', name:'Mules à Talon Coquillage (Or / Rose / Rose Cristal)', price:14000, image:'mules-talon-coquillage-3coloris.jpg' },
+    { id:486, cat:'mode', name:'Mules à Talon Nœud Doré (5 Coloris)', price:12000, image:'mules-talon-noeud-dore-5coloris.jpg' },
+    { id:487, cat:'mode', badge:'Top', name:'Baskets Nike Air Force 1 Gris & Noir (Daim)', price:45000, image:'baskets-nike-af1-gris-noir.jpg' },
+    { id:488, cat:'mode', badge:'Top', name:'Baskets Puma Suede Classic Noir', price:38000, image:'baskets-puma-suede-noir.jpg' },
+    { id:489, cat:'mode', name:'Mules à Talon Fleur Amitin (Beige/Argent/Noir/Or)', price:13000, image:'mules-fleur-amitin-4coloris.jpg' },
+    { id:490, cat:'mode', badge:'Nouveau', name:'Baskets Puma Suede XL Noir & Blanc', price:42000, image:'baskets-puma-suede-xl-noir-blanc.jpg' },
+
+    /* --- BEAUTÉ : Soins (ajouts lot 4) --- */
+    { id:491, cat:'beaute', badge:'Coffret', name:'Coffret V.V.Love Mellow Melody (Mist + Lotion + Crème)', price:9500, image:'coffret-vvlove-mellow-melody.jpg' },
+    { id:492, cat:'beaute', badge:'Top', name:'Eau Micellaire Byphasse 4-en-1 (Clear/Charbon/Waterproof)', price:6000, image:'eau-micellaire-byphasse-3types.jpg' },
+    { id:493, cat:'beaute', name:'Applicateur Teinture + Brosse Massante Cuir Chevelu', price:3000, image:'applicateur-teinture-brosse-massante.jpg' },
+
+    /* --- MAISON & DÉCO (ajouts lot 4) --- */
+    { id:494, cat:'maisondeco', badge:'Top', name:'Crochets Adhésifs Transparents (Lot de 50)', price:5000, image:'crochets-adhesifs-transparents-50pcs.jpg' },
+    { id:495, cat:'maisondeco', badge:'Luxe', name:'Service de Vaisselle 32 Pièces Liseré Or', price:35000, image:'service-vaisselle-32pcs-lisere-or.jpg' },
+
+    /* --- HIGH-TECH (ajouts lot 4) --- */
+    { id:496, cat:'tech', badge:'Luxe', name:'PC Portable Dell Tactile Convertible (Reconditionné)', price:250000, image:'pc-portable-dell-tactile-convertible.jpg' },
+
+    /* --- PRODUITS EN VIDÉO (ajouts lot 5) --- */
+    { id:500, cat:'beaute', badge:'Vidéo', name:'Parfum Lattafa Eclaire – Eau de Parfum 100ml', price:18000, image:'parfum-lattafa-eclaire-poster.jpg', video:'parfum-lattafa-eclaire.mp4' },
+    { id:501, cat:'maisondeco', badge:'Vidéo', name:'Couverture Mbadj Super Soft (Plusieurs Coloris)', price:25000, image:'couverture-mbadj-super-soft-poster.jpg', video:'couverture-mbadj-super-soft.mp4' },
+    { id:502, cat:'mode', badge:'Coffret', name:'Coffret Homme Savfox (Montre + Bracelet + Stylo + Ceinture + Portefeuille)', price:20000, image:'coffret-homme-savfox-montre-poster.jpg', video:'coffret-homme-savfox-montre.mp4' },
+    { id:503, cat:'maisondeco', badge:'Vidéo', name:'Croque/Gaufrier RAF 3-en-1 (Tacos · Gaufres · Paninis)', price:18000, image:'croque-gaufrier-raf-3en1-poster.jpg', video:'croque-gaufrier-raf-3en1.mp4' },
+    { id:504, cat:'beaute', badge:'Vidéo', name:'Crème Mains Kormesic Parfumée (Fraise/Avocat/Rose/Jasmin)', price:2000, image:'creme-mains-kormesic-poster.jpg', video:'creme-mains-kormesic.mp4' },
+
+    /* --- Ajouts lot 6 --- */
+    { id:505, cat:'maisondeco', badge:'Luxe', name:'Série de Bols Couverts BIEN Hasna 4 Pièces (Inox 35-40-45-50cm)', price:35000, image:'serie-bols-bien-hasna-4pcs.jpg' },
+    { id:506, cat:'maisondeco', badge:'Luxe', name:'Salon Bois 3 Pièces Bleu (Canapé + Fauteuils + Table)', price:280000, image:'salon-bleu-3pieces-bois.jpg' },
+    { id:507, cat:'mode', badge:'Nouveau', name:'Robe Chasuble + Chemise Boutonnée (Bleu / Violet)', price:18000, image:'robe-chasuble-chemise-bleu-violet.jpg' },
+    { id:508, cat:'alim', badge:'Best Foods', name:'Lentilles Best Foods 15 Kg (Canada)', price:14000, image:'bestfoods-lentilles-15kg-canada.jpg' },
+
+    /* --- AJOUTS : PAPIER (Capital & Double A) --- */
+    { id:520, cat:'papier', badge:'Capital', name:'Papier A4 Capital Premium 80g — Carton (5 Ramettes / 2500 feuilles)', price:14000, image:'capital-papier-a4.jpg' },
+    { id:521, cat:'papier', badge:'Capital', name:'Ramette Papier A4 Capital Premium 80g (500 feuilles)', price:3000, image:'capital-papier-a4.jpg' },
+    { id:522, cat:'papier', badge:'Double A', name:'Papier A4 Double A 80g — Carton (5 Ramettes / 2500 feuilles)', price:16000, image:'double-a-carton-ramettes.jpg' },
+    { id:523, cat:'papier', badge:'Double A', name:'Ramette Papier A4 Double A Premium 80g (500 feuilles)', price:3500, image:'double-a-carton-ramettes.jpg' },
+    { id:524, cat:'papier', badge:'Double A', name:'Pack 10 Ramettes A4 Double A (Livraison Gratuite Dakar)', price:30000, image:'double-a-livraison-dakar.jpg' },
+
+    /* --- AJOUTS : PRODUITS EN VIDÉO --- */
+    { id:525, cat:'maison-new', badge:'Vidéo', name:'Mixeur Blender 3en1 Multifonction (Démonstration)', price:28000, image:'mixeur-blender-3en1.mp4', video:'mixeur-blender-3en1.mp4' },
+    { id:526, cat:'beaute', badge:'Vidéo', name:'Parfum Femme Élégance — Eau de Parfum (Démonstration)', price:35000, image:'parfum-femme-demo.mp4', video:'parfum-femme-demo.mp4' },
+    { id:527, cat:'maisondeco', badge:'Vidéo', name:'Pot / Récipient Transparent Hermétique (Démonstration)', price:8000, image:'pot-transparent-demo.mp4', video:'pot-transparent-demo.mp4' },
+
+    /* --- AJOUTS : casque + riz vidéo --- */
+    { id:528, cat:'tech', badge:'Top', name:'Casque Bluetooth Pro — Réducteur de Bruit (Noir)', price:18000, image:'casque-bluetooth-pro-noir.jpg' },
+    { id:529, cat:'alim', badge:'Vidéo', name:'Sac de Riz Parfumé 25 Kg (Démonstration Entrepôt)', price:16000, image:'sac-riz-parfume-25kg.mp4', video:'sac-riz-parfume-25kg.mp4' },
+
+    /* --- AJOUTS : ustensiles cuisine + sacs (vidéos) --- */
+    { id:530, cat:'maisondeco', badge:'Vidéo', name:'Mini Mixeur Portable Rechargeable (USB)', price:12000, image:'mixeur-mini-portable.mp4', video:'mixeur-mini-portable.mp4' },
+    { id:531, cat:'maisondeco', badge:'Vidéo', name:'Coupeuse Légumes Uniforme Multifonction', price:9000, image:'coupeuse-legumes-uniforme.mp4', video:'coupeuse-legumes-uniforme.mp4' },
+    { id:532, cat:'maisondeco', badge:'Vidéo', name:'Écailleuse à Poisson (Nettoyage Rapide)', price:5000, image:'ecailleuse-poisson.mp4', video:'ecailleuse-poisson.mp4' },
+    { id:533, cat:'maisondeco', badge:'Vidéo', name:'Éplucheuse de Légumes Pratique', price:4000, image:'eplucheuse-legumes.mp4', video:'eplucheuse-legumes.mp4' },
+    { id:534, cat:'maisondeco', badge:'Vidéo', name:'Mini Soudeuse Ferme-Sachet Thermique', price:3500, image:'ferme-sachet-thermo.mp4', video:'ferme-sachet-thermo.mp4' },
+    { id:535, cat:'mode', badge:'Vidéo', name:'Sac Super Pratique Multi-Compartiments', price:14000, image:'sac-pratique-1.mp4', video:'sac-pratique-1.mp4' },
+    { id:536, cat:'mode', badge:'Vidéo', name:'Sac Super Pratique Pliable Grande Capacité', price:12000, image:'sac-pratique-2.mp4', video:'sac-pratique-2.mp4' },
+
+    /* --- AJOUT : électroménager (vidéo) --- */
+    { id:537, cat:'maison-new', badge:'Vidéo', name:'Mini Machine à Laver Waterproof (Portable)', price:25000, image:'mini_machine_a_laver_waterproof.mp4', video:'mini_machine_a_laver_waterproof.mp4' },
+    
+    /* --- NOUVEAU PRODUIT : ÉCAILLEUSE MANUELLE PREMIUM --- */
+    { id:538, cat:'maison-new', badge:'Nouveau', name:'Écailleuse Manuelle Premium', price:1500, image:'produitsouvertbleu.png', video:'p.mp4' },
+
+    /* --- NOUVEAUX PRODUITS VIDÉO (lot 7) --- */
+    { id:539, cat:'maison-new', badge:'Vidéo', name:'Poubelle Design Inox (Pédale · 2 Compartiments)', price:3500, image:'POUBELLE.mp4', video:'POUBELLE.mp4' },
+    { id:540, cat:'maison-new', badge:'Vidéo', name:'Range-Chaussures Empilable', price:15000, image:'range-chaussure.mp4', video:'range-chaussure.mp4' },
+    { id:541, cat:'sport', badge:'Vidéo', name:'Tapis Roulant Électrique Pliable (Usage Maison)', price:45000, image:'tapisroulante.mp4', video:'tapisroulante.mp4' },
+  ];
+
+const CAT_LABEL = { 'maison-new':'Maison','flash':'Flash Vente','tech':'High-Tech','mode':'Mode','beaute':'Parfums & Beauté','alim':'Épicerie','maisondeco':'Maison & Déco','sport':'Sport','auto':'Automobiles','papier':'Papeterie','super':'Supermarché','bebe':'Rayon Bébé' };
+
+const SIZE_SETS = { mode: ['Unique','S','M','L','XL','XXL'] };
+
+/* ---------- PARAMÈTRES BOUTIQUE ---------- */
+const SHOP = {
+  WHATSAPP: '221774976364',
+  PHONE_DISPLAY: '77 497 63 64',
+  OM_NUMBER_DISPLAY: '77 497 63 64',
+  OM_NUMBER_RAW: '774976364',
+  WAVE_LINK: 'https://pay.wave.com/m/M_sn_30oc-Y5fg1Sp/c/sn/',
+  EMAIL: 'crystalecom2026@gmail.com',
+  NAME: 'Crystal Company Limited'
+};
+
+/* ---------- OUTILS ---------- */
+const $ = s => document.querySelector(s);
+const money = n => n.toLocaleString('fr-FR') + ' FCFA';
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+function store(key, val){
+  if(val === undefined){ try{ return JSON.parse(localStorage.getItem(key)); }catch(e){ return null; } }
+  try{ localStorage.setItem(key, JSON.stringify(val)); }catch(e){}
+}
+function toast(msg, icon){
+  const t = $('#toast');
+  t.innerHTML = '<i class="ti ti-' + (icon||'check') + '"></i> ' + msg;
+  t.classList.add('show');
+  clearTimeout(window._tt);
+  window._tt = setTimeout(()=>t.classList.remove('show'), 2600);
+}
+function imgErr(el){ el.style.display='none'; el.parentElement.classList.add('noimg'); }
+function go(hash){ location.hash = hash; }
+const byId = id => products.find(p => p.id === Number(id));
+
+/* ---------- ÉTAT : PANIER & FAVORIS (clés compatibles ancien site) ---------- */
+let cart = store('ccl_cart') || [];
+let wish = store('ccl_wishlist') || [];
+function saveCart(){ store('ccl_cart', cart); badges(); }
+function saveWish(){ store('ccl_wishlist', wish); badges(); }
+function cartCount(){ return cart.reduce((s,i)=>s+i.qty,0); }
+function cartTotal(){ return cart.reduce((s,i)=>s+i.price*i.qty,0); }
+function badges(){
+  const c = String(cartCount()), f = String(wish.length);
+  ['bub-cart','bub-cart2'].forEach(id=>{ const e=document.getElementById(id); if(e){ e.textContent=c; e.dataset.n=c; }});
+  ['bub-fav','bub-fav2'].forEach(id=>{ const e=document.getElementById(id); if(e){ e.textContent=f; e.dataset.n=f; }});
+}
+function addToCart(id, qty, size, silent){
+  const p = byId(id); if(!p) return;
+  qty = qty || 1;
+  const key = String(id) + '|' + (size||'');
+  const line = cart.find(i => String(i.id)+'|'+(i.size||'') === key);
+  if(line){ line.qty += qty; } else { cart.push({ id:p.id, name:p.name, price:p.price, image:p.image||'', qty:qty, size:size||null }); }
+  saveCart();
+  if(!silent) toast('Ajouté au panier — ' + esc(p.name), 'shopping-bag');
+}
+function setQty(index, q){
+  if(!cart[index]) return;
+  cart[index].qty = Math.max(1, Math.min(99, q));
+  saveCart(); render();
+}
+function removeLine(index){ cart.splice(index,1); saveCart(); render(); }
+function toggleWish(id, btn){
+  const i = wish.indexOf(id);
+  if(i >= 0){ wish.splice(i,1); toast('Retiré des favoris','heart-off'); }
+  else { wish.push(id); toast('Ajouté aux favoris','heart'); }
+  saveWish();
+  if(btn){ btn.classList.toggle('on', wish.includes(id)); }
+  else render();
+}
+
+/* ---------- COMPOSANTS ---------- */
+function badgeHTML(p){
+  if(p.old) {
+    const pct = Math.round((1 - p.price/p.old) * 100);
+    return '<span class="ptag sale">-' + pct + '%</span>';
+  }
+  if(p.badge === 'Nouveau') return '<span class="ptag new">Nouveau</span>';
+  if(p.badge) return '<span class="ptag">' + esc(p.badge) + '</span>';
+  return '';
+}
+function cardHTML(p){
+  const inWish = wish.includes(p.id) ? ' on' : '';
+  const img = p.image ? '<img src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy" onerror="imgErr(this)">' : '';
+  const price = p.old
+    ? '<span class="sale">' + money(p.price) + '</span><s>' + money(p.old) + '</s>'
+    : money(p.price);
+  return '<article class="pcard rv" onclick="go(\'#/produit/' + p.id + '\')">' +
+    '<div class="pimg' + (p.image?'':' noimg') + '">' + badgeHTML(p) +
+      '<button class="pfav' + inWish + '" onclick="event.stopPropagation(); toggleWish(' + p.id + ', this)" aria-label="Favoris"><i class="ti ti-heart"></i></button>' +
+      img +
+    '</div>' +
+    '<div class="pinfo">' +
+      '<span class="pcat">' + esc(CAT_LABEL[p.cat] || 'Boutique') + '</span>' +
+      '<h3 class="pname">' + esc(p.name) + '</h3>' +
+      '<div class="pprice">' + price + '</div>' +
+      '<button class="padd" onclick="event.stopPropagation(); addToCart(' + p.id + ')"><i class="ti ti-plus"></i> Ajouter au panier</button>' +
+    '</div>' +
+  '</article>';
+}
+function gridHTML(list){ return '<div class="pgrid">' + list.map(cardHTML).join('') + '</div>'; }
+function crumbs(items){
+  return '<div class="crumbs"><a href="#/">Accueil</a>' +
+    items.map(it => '<i class="ti ti-chevron-right"></i>' + (it.href ? '<a href="'+it.href+'">'+esc(it.label)+'</a>' : '<b>'+esc(it.label)+'</b>')).join('') +
+  '</div>';
+}
+
+/* ============================================================
+   VUES
+   ============================================================ */
+
+/* ---------- ACCUEIL ---------- */
+function viewHome(){
+  const cats = [
+    ['mode','ti-shirt'],['beaute','ti-spray'],['alim','ti-basket'],['maison-new','ti-home'],
+    ['tech','ti-device-mobile'],['papier','ti-file-stack'],['sport','ti-barbell'],['auto','ti-car']
+  ];
+  const promos = products.filter(p=>p.cat==='flash').slice(0,10);
+  const news = products.filter(p=>p.cat==='maison-new').slice(0,10);
+  const mode = products.filter(p=>p.cat==='mode').slice(0,10);
+  const beaute = products.filter(p=>p.cat==='beaute').slice(0,10);
+  return `
+  <section class="hero">
+    <div class="hero-in">
+      <span class="hero-kicker">Marketplace · Dakar, Sénégal</span>
+      <h1>Tout ce qu'il vous faut, livré en 24h à Dakar</h1>
+      <p>Mode, maison, beauté, alimentation Best Foods, papeterie Capital — ${products.length} produits sélectionnés, au meilleur prix.</p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:center;">
+        <a class="btn btn-solid" href="#/boutique">Découvrir la boutique</a>
+        <a class="btn btn-line" href="#/boutique?cat=flash">Voir les promos</a>
+      </div>
+      <div class="hero-badges">
+        <span><i class="ti ti-truck-delivery"></i> Livraison J+1</span>
+        <span><i class="ti ti-shield-check"></i> Paiement sécurisé</span>
+        <span><i class="ti ti-brand-whatsapp"></i> Support WhatsApp 7j/7</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head"><h2>Nos rayons</h2></div>
+    <div class="catgrid">
+      ${cats.map(([c,ic]) => '<a class="catcard rv" href="#/boutique?cat='+c+'"><i class="ti '+ic+'"></i><span>'+esc(CAT_LABEL[c])+'</span></a>').join('')}
+    </div>
+  </section>
+
+  ${promos.length ? `
+  <section class="sec">
+    <div class="sec-head"><h2>Promotions en cours</h2><a class="link" href="#/boutique?cat=flash">Tout voir</a></div>
+    <div class="rowscroll">${promos.map(cardHTML).join('')}</div>
+  </section>` : ''}
+
+  <section class="sec">
+    <div class="sec-head"><h2>Nouveautés maison</h2><a class="link" href="#/boutique?cat=maison-new">Tout voir</a></div>
+    <div class="rowscroll">${news.map(cardHTML).join('')}</div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head"><h2>Nos marques</h2></div>
+    <div class="brands">
+      <div class="brand bf rv"><div><h3><i class="ti ti-leaf"></i> Best Foods</h3><p>Épices, café, légumineuses et épicerie fine importées et conditionnées au Sénégal.</p></div><a href="#/boutique?cat=alim">Découvrir</a></div>
+      <div class="brand cap rv"><div><h3><i class="ti ti-file-stack"></i> Capital &amp; Double A</h3><p>Papier A4 premium pour bureaux, imprimeries et administrations. Better Paper, Better World.</p></div><a href="capital.html">Voir la boutique</a></div>
+      <div class="brand ssr rv"><div><h3><i class="ti ti-crown"></i> Sen Senteurs Royal</h3><p>Parfums d'exception et bakhoor de luxe. L'élégance olfactive à la sénégalaise.</p></div><a href="ssr.html">Entrer</a></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head"><h2>Mode &amp; Style</h2><a class="link" href="#/boutique?cat=mode">Tout voir</a></div>
+    <div class="rowscroll">${mode.map(cardHTML).join('')}</div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head"><h2>Parfums &amp; Beauté</h2><a class="link" href="#/boutique?cat=beaute">Tout voir</a></div>
+    <div class="rowscroll">${beaute.map(cardHTML).join('')}</div>
+  </section>
+
+  <div class="trust">
+    <div class="trust-in">
+      <div class="titem rv"><span class="ic"><i class="ti ti-truck-delivery"></i></span><div><h4>Livraison J+1 à Dakar</h4><p>Commandez aujourd'hui, recevez demain.</p></div></div>
+      <div class="titem rv"><span class="ic"><i class="ti ti-wallet"></i></span><div><h4>Wave &amp; Orange Money</h4><p>Ou paiement en espèces à la livraison.</p></div></div>
+      <div class="titem rv"><span class="ic"><i class="ti ti-refresh"></i></span><div><h4>Échange facile</h4><p>Produit non conforme ? On s'en occupe.</p></div></div>
+      <div class="titem rv"><span class="ic"><i class="ti ti-headset"></i></span><div><h4>Support 7j/7</h4><p>Une équipe réactive sur WhatsApp.</p></div></div>
+    </div>
+  </div>
+
+  <section class="news">
+    <h2>Restez informé de nos arrivages</h2>
+    <p>Promos flash, nouveautés et offres réservées aux abonnés.</p>
+    <form onsubmit="event.preventDefault(); store('ccl_newsletter', this.email.value); this.reset(); toast('Merci, vous êtes inscrit !','mail-check');">
+      <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+      <button class="btn btn-solid" type="submit">S'inscrire</button>
+    </form>
+  </section>`;
+}
+
+/* ---------- BOUTIQUE ---------- */
+const shopState = { cat:'', q:'', min:'', max:'', sort:'reco', limit:24 };
+function viewShop(params){
+  shopState.cat = params.get('cat') || '';
+  shopState.q = params.get('q') || '';
+  shopState.limit = 24;
+  return renderShopShell();
+}
+function renderShopShell(){
+  const counts = {};
+  products.forEach(p => counts[p.cat] = (counts[p.cat]||0) + 1);
+  const cats = Object.keys(CAT_LABEL).filter(c => counts[c]);
+  return `
+  ${crumbs([{label:'Boutique'}])}
+  <section class="sec">
+    <h1 class="page-title">Boutique</h1>
+    <p class="page-sub">${products.length} produits — livraison J+1 à Dakar</p>
+    <div class="shop-layout" style="margin-top:28px;">
+      <aside class="filters">
+        <div class="fgroup">
+          <h4>Catégories</h4>
+          <div class="fcat">
+            <button class="${shopState.cat===''?'on':''}" onclick="setFilter('cat','')">Tout <small>${products.length}</small></button>
+            ${cats.map(c => '<button class="'+(shopState.cat===c?'on':'')+'" onclick="setFilter(\'cat\',\''+c+'\')">'+esc(CAT_LABEL[c])+' <small>'+counts[c]+'</small></button>').join('')}
+          </div>
+        </div>
+        <div class="fgroup">
+          <h4>Prix (FCFA)</h4>
+          <div class="fprice">
+            <input type="number" id="fmin" placeholder="Min" value="${esc(shopState.min)}" min="0">
+            <span>—</span>
+            <input type="number" id="fmax" placeholder="Max" value="${esc(shopState.max)}" min="0">
+          </div>
+          <button class="btn btn-line" style="width:100%; margin-top:12px; padding:10px;" onclick="setFilter('price')">Appliquer</button>
+        </div>
+      </aside>
+      <div>
+        <div class="shop-bar">
+          <span class="count" id="shop-count"></span>
+          <select onchange="setFilter('sort', this.value)">
+            <option value="reco" ${shopState.sort==='reco'?'selected':''}>Tri : Recommandé</option>
+            <option value="price-asc" ${shopState.sort==='price-asc'?'selected':''}>Prix croissant</option>
+            <option value="price-desc" ${shopState.sort==='price-desc'?'selected':''}>Prix décroissant</option>
+            <option value="promo" ${shopState.sort==='promo'?'selected':''}>Promotions d'abord</option>
+            <option value="name" ${shopState.sort==='name'?'selected':''}>Nom A → Z</option>
+          </select>
+        </div>
+        <div class="chips" id="shop-chips"></div>
+        <div id="shop-results"></div>
+      </div>
+    </div>
+  </section>`;
+}
+function setFilter(kind, val){
+  if(kind==='cat'){ shopState.cat = val; shopState.limit = 24; }
+  if(kind==='sort'){ shopState.sort = val; }
+  if(kind==='price'){
+    shopState.min = ($('#fmin')||{}).value || '';
+    shopState.max = ($('#fmax')||{}).value || '';
+    shopState.limit = 24;
+  }
+  if(kind==='clearq'){ shopState.q=''; }
+  // Re-render la page boutique sans toucher au hash (état interne)
+  $('#app').innerHTML = renderShopShell();
+  renderShopResults();
+  window.scrollTo({top:0});
+}
+function shopFiltered(){
+  let list = products.slice();
+  if(shopState.cat) list = list.filter(p => p.cat === shopState.cat);
+  if(shopState.q){
+    const q = shopState.q.toLowerCase();
+    list = list.filter(p => (p.name + ' ' + (CAT_LABEL[p.cat]||'') + ' ' + (p.badge||'')).toLowerCase().includes(q));
+  }
+  const min = Number(shopState.min), max = Number(shopState.max);
+  if(shopState.min !== '' && !isNaN(min)) list = list.filter(p => p.price >= min);
+  if(shopState.max !== '' && !isNaN(max)) list = list.filter(p => p.price <= max);
+  switch(shopState.sort){
+    case 'price-asc': list.sort((a,b)=>a.price-b.price); break;
+    case 'price-desc': list.sort((a,b)=>b.price-a.price); break;
+    case 'name': list.sort((a,b)=>a.name.localeCompare(b.name,'fr')); break;
+    case 'promo': list.sort((a,b)=>(b.old?1:0)-(a.old?1:0)); break;
+  }
+  return list;
+}
+function renderShopResults(){
+  const list = shopFiltered();
+  const count = $('#shop-count');
+  if(count) count.textContent = list.length + ' produit' + (list.length>1?'s':'');
+  const chips = $('#shop-chips');
+  if(chips){
+    let h = '';
+    if(shopState.cat) h += '<span class="chip">'+esc(CAT_LABEL[shopState.cat])+' <button style="border:none;background:none;padding:0;display:flex;" onclick="setFilter(\'cat\',\'\')" aria-label="Retirer"><i class="ti ti-x"></i></button></span>';
+    if(shopState.q) h += '<span class="chip">« '+esc(shopState.q)+' » <button style="border:none;background:none;padding:0;display:flex;" onclick="setFilter(\'clearq\')" aria-label="Retirer"><i class="ti ti-x"></i></button></span>';
+    if(shopState.min || shopState.max) h += '<span class="chip">'+(shopState.min||'0')+' — '+(shopState.max||'∞')+' FCFA</span>';
+    chips.innerHTML = h;
+  }
+  const box = $('#shop-results');
+  if(!box) return;
+  if(list.length === 0){
+    box.innerHTML = '<div class="empty"><i class="ti ti-mood-empty"></i>Aucun produit ne correspond à votre recherche.<br><br><button class="btn btn-line" onclick="shopState.q=\'\';shopState.cat=\'\';shopState.min=\'\';shopState.max=\'\';setFilter(\'sort\',\'reco\')">Réinitialiser les filtres</button></div>';
+    return;
+  }
+  const shown = list.slice(0, shopState.limit);
+  box.innerHTML = gridHTML(shown) +
+    (list.length > shopState.limit
+      ? '<div class="loadmore"><button class="btn btn-line" onclick="shopState.limit += 24; renderShopResults(); observeReveals();">Afficher plus (' + (list.length - shopState.limit) + ' restants)</button></div>'
+      : '');
+}
+
+/* ---------- FICHE PRODUIT ---------- */
+function viewProduct(id){
+  const p = byId(id);
+  if(!p) return view404();
+  const sizes = SIZE_SETS[p.cat];
+  const related = products.filter(x => x.cat === p.cat && x.id !== p.id).slice(0,10);
+  const pct = p.old ? Math.round((1 - p.price/p.old)*100) : 0;
+  const inWish = wish.includes(p.id);
+  return `
+  ${crumbs([{label:'Boutique', href:'#/boutique'},{label:CAT_LABEL[p.cat]||'Boutique', href:'#/boutique?cat='+p.cat},{label:p.name}])}
+  <section class="sec">
+    <div class="prod">
+      <div class="prod-img">
+        <div class="pimg${p.image?'':' noimg'}">
+          ${badgeHTML(p)}
+          ${p.image ? '<img src="'+esc(p.image)+'" alt="'+esc(p.name)+'" onerror="imgErr(this)">' : ''}
+        </div>
+      </div>
+      <div class="prod-info">
+        <span class="pcat">${esc(CAT_LABEL[p.cat]||'Boutique')} · Réf. CCL-${p.id}</span>
+        <h1>${esc(p.name)}</h1>
+        <div class="prod-price">
+          ${p.old ? '<span class="sale">'+money(p.price)+'</span><s>'+money(p.old)+'</s>' : money(p.price)}
+        </div>
+        ${p.old ? '<span class="save-tag">Vous économisez '+money(p.old-p.price)+' (-'+pct+'%)</span>' : ''}
+        <div class="stockline"><span class="dot"></span> En stock — expédié sous 24h à Dakar</div>
+        ${sizes ? '<div class="opt-label">Taille</div><div class="sizes" id="psizes">'+sizes.map((s,i)=>'<button class="size'+(i===0?' on':'')+'" data-size="'+esc(s)+'" onclick="pickSize(this)">'+esc(s)+'</button>').join('')+'</div>' : ''}
+        <div class="opt-label">Quantité</div>
+        <div class="qty">
+          <button type="button" onclick="bumpQty(-1)" aria-label="Moins">−</button>
+          <input id="pqty" type="number" value="1" min="1" max="99" inputmode="numeric">
+          <button type="button" onclick="bumpQty(1)" aria-label="Plus">+</button>
+        </div>
+        <div class="buyrow">
+          <button class="btn btn-solid" onclick="buyNow(${p.id}, false)"><i class="ti ti-shopping-bag-plus"></i> Ajouter au panier</button>
+          <button class="btn btn-green" onclick="buyNow(${p.id}, true)"><i class="ti ti-bolt"></i> Acheter maintenant</button>
+        </div>
+        <button class="btn btn-line" style="width:100%;" onclick="toggleWish(${p.id})"><i class="ti ti-heart"></i> ${inWish ? 'Retirer des favoris' : 'Ajouter aux favoris'}</button>
+        <div class="prod-meta">
+          <div><i class="ti ti-truck-delivery"></i> Livraison J+1 partout à Dakar — frais confirmés sur WhatsApp selon votre zone</div>
+          <div><i class="ti ti-wallet"></i> Paiement Wave, Orange Money ou espèces à la livraison</div>
+          <div><i class="ti ti-brand-whatsapp"></i> Une question ? <a class="link" href="https://wa.me/${SHOP.WHATSAPP}?text=${encodeURIComponent('Bonjour, je souhaite des informations sur : '+p.name+' (Réf CCL-'+p.id+')')}" target="_blank" rel="noopener">Écrivez-nous sur WhatsApp</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  ${related.length ? `
+  <section class="sec">
+    <div class="sec-head"><h2>Vous aimerez aussi</h2><a class="link" href="#/boutique?cat=${p.cat}">Tout voir</a></div>
+    <div class="rowscroll">${related.map(cardHTML).join('')}</div>
+  </section>` : ''}`;
+}
+function pickSize(btn){
+  document.querySelectorAll('#psizes .size').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+}
+function bumpQty(d){
+  const i = $('#pqty'); if(!i) return;
+  i.value = Math.max(1, Math.min(99, (Number(i.value)||1) + d));
+}
+function buyNow(id, direct){
+  const qty = Number(($('#pqty')||{}).value) || 1;
+  const sBtn = document.querySelector('#psizes .size.on');
+  const size = sBtn ? sBtn.dataset.size : null;
+  addToCart(id, qty, size, direct);
+  if(direct) go('#/panier');
+}
+
+/* ---------- PANIER ---------- */
+function viewCart(){
+  if(cart.length === 0){
+    return crumbs([{label:'Panier'}]) + `
+    <div class="empty" style="padding:90px 20px;">
+      <i class="ti ti-shopping-bag"></i>
+      <h1 class="page-title" style="margin-bottom:8px;">Votre panier est vide</h1>
+      <p style="margin-bottom:26px;">Découvrez nos ${products.length} produits livrés en 24h à Dakar.</p>
+      <a class="btn btn-solid" href="#/boutique">Continuer mes achats</a>
+    </div>`;
+  }
+  const rows = cart.map((i, idx) => {
+    const img = i.image ? '<img src="'+esc(i.image)+'" alt="" onerror="imgErr(this)">' : '';
+    return `
+    <div class="citem">
+      <a class="pimg${i.image?'':' noimg'}" href="#/produit/${i.id}">${img}</a>
+      <div>
+        <h4><a href="#/produit/${i.id}">${esc(i.name)}</a></h4>
+        ${i.size ? '<div class="sz">Taille : '+esc(i.size)+'</div>' : ''}
+        <div class="unit">${money(i.price)} / unité</div>
+      </div>
+      <div class="citem-right">
+        <div class="qty">
+          <button onclick="setQty(${idx}, ${i.qty-1})" aria-label="Moins">−</button>
+          <input type="number" value="${i.qty}" min="1" max="99" onchange="setQty(${idx}, Number(this.value)||1)">
+          <button onclick="setQty(${idx}, ${i.qty+1})" aria-label="Plus">+</button>
+        </div>
+        <span class="line-total">${money(i.price*i.qty)}</span>
+        <button class="rm" onclick="removeLine(${idx})"><i class="ti ti-trash"></i> Retirer</button>
+      </div>
+    </div>`;
+  }).join('');
+  return `
+  ${crumbs([{label:'Panier'}])}
+  <section class="sec">
+    <h1 class="page-title">Mon panier</h1>
+    <p class="page-sub">${cartCount()} article${cartCount()>1?'s':''}</p>
+    <div class="cart-layout" style="margin-top:22px;">
+      <div>${rows}
+        <div style="margin-top:20px;"><a class="link" href="#/boutique"><i class="ti ti-arrow-left"></i> Continuer mes achats</a></div>
+      </div>
+      <aside class="summary">
+        <h3>Récapitulatif</h3>
+        <div class="srow"><span>Sous-total</span><b>${money(cartTotal())}</b></div>
+        <div class="srow"><span>Livraison (Dakar)</span><span>Confirmée sur WhatsApp</span></div>
+        <div class="srow total"><span>Total</span><span>${money(cartTotal())}</span></div>
+        <a class="btn btn-green" href="#/commande"><i class="ti ti-lock"></i> Passer la commande</a>
+        <div class="note"><i class="ti ti-shield-check"></i> Paiement Wave, Orange Money ou en espèces à la livraison. Votre commande est confirmée par notre équipe sur WhatsApp.</div>
+      </aside>
+    </div>
+  </section>`;
+}
+
+/* ---------- CHECKOUT ---------- */
+let payMethod = null;
+function viewCheckout(){
+  if(cart.length === 0){ go('#/panier'); return ''; }
+  payMethod = null;
+  const c = store('ccl_customer') || {};
+  const rows = cart.map(i => {
+    const img = i.image ? '<img src="'+esc(i.image)+'" alt="" onerror="imgErr(this)">' : '';
+    return '<div class="citem"><span class="pimg'+(i.image?'':' noimg')+'">'+img+'</span><div><h4>'+esc(i.name)+(i.size?' <span class="sz">('+esc(i.size)+')</span>':'')+'</h4><div class="unit">'+i.qty+' × '+money(i.price)+'</div></div><b>'+money(i.price*i.qty)+'</b></div>';
+  }).join('');
+  return `
+  ${crumbs([{label:'Panier', href:'#/panier'},{label:'Commande'}])}
+  <section class="sec">
+    <h1 class="page-title">Finaliser ma commande</h1>
+    <div class="co-layout" style="margin-top:24px;">
+      <div>
+        <div class="fblock">
+          <h3><span class="n">1</span> Vos coordonnées</h3>
+          <div class="frow">
+            <div class="field" id="f-name"><label>Nom complet <em>*</em></label><input id="co-name" value="${esc(c.name||'')}" autocomplete="name"><span class="err">Indiquez votre nom complet.</span></div>
+            <div class="field" id="f-phone"><label>Téléphone (WhatsApp) <em>*</em></label><input id="co-phone" value="${esc(c.phone||'')}" inputmode="tel" placeholder="77 000 00 00" autocomplete="tel"><span class="err">Numéro sénégalais requis (9 chiffres, ex : 77 123 45 67).</span></div>
+          </div>
+        </div>
+        <div class="fblock">
+          <h3><span class="n">2</span> Livraison à Dakar</h3>
+          <div class="frow">
+            <div class="field" id="f-zone"><label>Quartier / Zone <em>*</em></label><input id="co-zone" value="${esc(c.zone||'')}" placeholder="Ex : Plateau, Ouakam, Pikine..."><span class="err">Indiquez votre quartier.</span></div>
+            <div class="field"><label>Repère (facultatif)</label><input id="co-landmark" value="${esc(c.landmark||'')}" placeholder="Ex : en face de la pharmacie..."></div>
+          </div>
+          <div class="frow one">
+            <div class="field" id="f-addr"><label>Adresse précise <em>*</em></label><input id="co-addr" value="${esc(c.addr||'')}" placeholder="Rue, villa, appartement..."><span class="err">Indiquez votre adresse de livraison.</span></div>
+          </div>
+          <div class="frow one">
+            <div class="field"><label>Note pour le livreur (facultatif)</label><textarea id="co-note" rows="2" placeholder="Horaires préférés, instructions...">${esc(c.note||'')}</textarea></div>
+          </div>
+        </div>
+        <div class="fblock">
+          <h3><span class="n">3</span> Mode de paiement</h3>
+          <div class="paychoice">
+            <button type="button" class="paym" data-pay="wave" onclick="pickPay('wave',this)"><i class="ti ti-wallet"></i><b>Wave</b><small>Paiement mobile</small></button>
+            <button type="button" class="paym" data-pay="orange" onclick="pickPay('orange',this)"><i class="ti ti-device-mobile"></i><b>Orange Money</b><small>Paiement mobile</small></button>
+            <button type="button" class="paym" data-pay="cash" onclick="pickPay('cash',this)"><i class="ti ti-cash"></i><b>À la livraison</b><small>Espèces</small></button>
+          </div>
+          <div class="payinfo" id="payinfo"></div>
+        </div>
+      </div>
+      <aside class="summary co-summary">
+        <h3>Votre commande</h3>
+        ${rows}
+        <div class="srow" style="margin-top:16px;"><span>Sous-total</span><b>${money(cartTotal())}</b></div>
+        <div class="srow"><span>Livraison</span><span>Confirmée sur WhatsApp</span></div>
+        <div class="srow total"><span>Total</span><span>${money(cartTotal())}</span></div>
+        <button class="btn btn-wa" id="co-submit" onclick="submitOrder()"><i class="ti ti-brand-whatsapp"></i> Confirmer sur WhatsApp</button>
+        <div class="note"><i class="ti ti-info-circle"></i> En confirmant, votre commande détaillée s'ouvre dans WhatsApp vers notre équipe (${SHOP.PHONE_DISPLAY}). C'est elle qui valide définitivement la commande et la livraison.</div>
+      </aside>
+    </div>
+  </section>`;
+}
+function pickPay(m, btn){
+  payMethod = m;
+  document.querySelectorAll('.paym').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  const box = $('#payinfo');
+  const total = money(cartTotal());
+  if(m === 'wave'){
+    box.innerHTML = '<b>Paiement Wave — ' + total + '</b><ol>' +
+      '<li>Cliquez sur le bouton ci-dessous : la page de paiement <b>Crystal Company</b> s\'ouvre.</li>' +
+      '<li>Payez le montant exact : <b>' + total + '</b>.</li>' +
+      '<li>Faites une capture d\'écran de la confirmation.</li>' +
+      '<li>Confirmez ensuite votre commande sur WhatsApp en joignant la capture.</li></ol>' +
+      '<a class="btn btn-solid" style="margin-top:14px;" href="' + SHOP.WAVE_LINK + '" target="_blank" rel="noopener"><i class="ti ti-external-link"></i> Payer ' + total + ' avec Wave</a>';
+  } else if(m === 'orange'){
+    box.innerHTML = '<b>Paiement Orange Money — ' + total + '</b>' +
+      '<div class="num"><i class="ti ti-device-mobile"></i> ' + SHOP.OM_NUMBER_DISPLAY +
+      ' <button type="button" class="copy" onclick="copyOM(this)"><i class="ti ti-copy"></i> Copier</button></div><ol>' +
+      '<li>Envoyez <b>' + total + '</b> au <b>' + SHOP.OM_NUMBER_DISPLAY + '</b> (Crystal Company Limited).</li>' +
+      '<li>Faites une capture d\'écran de la confirmation.</li>' +
+      '<li>Confirmez ensuite votre commande sur WhatsApp en joignant la capture.</li></ol>';
+  } else {
+    box.innerHTML = '<b>Paiement à la livraison — ' + total + '</b><p style="margin-top:8px;">Rien à payer maintenant. Confirmez votre commande : nous vous livrons à Dakar et vous réglez <b>' + total + '</b> en espèces à la réception.</p>';
+  }
+  box.classList.add('show');
+}
+function copyOM(btn){
+  try{ navigator.clipboard && navigator.clipboard.writeText(SHOP.OM_NUMBER_RAW); }catch(e){}
+  btn.innerHTML = '<i class="ti ti-check"></i> Copié';
+  setTimeout(()=>{ btn.innerHTML = '<i class="ti ti-copy"></i> Copier'; }, 1800);
+}
+function markField(id, bad){ const f = document.getElementById(id); if(f) f.classList.toggle('bad', bad); return !bad; }
+function submitOrder(){
+  const name = ($('#co-name').value||'').trim();
+  const phoneRaw = ($('#co-phone').value||'').replace(/\D/g,'').replace(/^221/,'');
+  const zone = ($('#co-zone').value||'').trim();
+  const addr = ($('#co-addr').value||'').trim();
+  const landmark = ($('#co-landmark').value||'').trim();
+  const note = ($('#co-note').value||'').trim();
+  let ok = true;
+  ok = markField('f-name', name.length < 2) && ok;
+  ok = markField('f-phone', !/^(7[05678])\d{7}$/.test(phoneRaw)) && ok;
+  ok = markField('f-zone', zone.length < 2) && ok;
+  ok = markField('f-addr', addr.length < 3) && ok;
+  if(!ok){ toast('Vérifiez les champs en rouge','alert-triangle'); return; }
+  if(!payMethod){ toast('Choisissez un mode de paiement','alert-triangle'); const pi = $('#payinfo'); if(pi && pi.scrollIntoView) pi.scrollIntoView({block:'center'}); return; }
+
+  store('ccl_customer', { name, phone:phoneRaw, zone, addr, landmark, note });
+
+  const num = 'CCL-' + new Date().toISOString().slice(2,10).replace(/-/g,'') + '-' + Math.floor(1000 + Math.random()*9000);
+  const payLabel = payMethod === 'wave' ? 'Wave' : payMethod === 'orange' ? 'Orange Money' : 'Espèces à la livraison';
+  let msg = 'Bonjour ' + SHOP.NAME + ', voici ma commande ' + num + ' :\n\n';
+  cart.forEach(i => { msg += '- ' + i.qty + ' x ' + i.name + (i.size ? ' (' + i.size + ')' : '') + ' : ' + money(i.price*i.qty) + '\n'; });
+  msg += '\nTOTAL : ' + money(cartTotal()) + '\nPaiement : ' + payLabel + '\n\n';
+  msg += 'Nom : ' + name + '\nTel : ' + phoneRaw + '\nQuartier : ' + zone + '\nAdresse : ' + addr + '\n';
+  if(landmark) msg += 'Repère : ' + landmark + '\n';
+  if(note) msg += 'Note : ' + note + '\n';
+  if(payMethod === 'wave' || payMethod === 'orange') msg += '\n(Je joins la capture d\'écran de mon paiement.)';
+
+  const orders = store('ccl_orders') || [];
+  orders.unshift({ num, date:new Date().toISOString(), items:cart, total:cartTotal(), pay:payLabel, customer:{name, phone:phoneRaw, zone, addr} });
+  store('ccl_orders', orders.slice(0,20));
+  window._lastOrder = orders[0];
+
+  window.open('https://wa.me/' + SHOP.WHATSAPP + '?text=' + encodeURIComponent(msg), '_blank');
+  cart = []; saveCart();
+  go('#/confirmation');
+}
+
+/* ---------- CONFIRMATION ---------- */
+function viewConfirm(){
+  const o = window._lastOrder || (store('ccl_orders')||[])[0];
+  if(!o) return view404();
+  return `
+  <div class="confirm">
+    <div class="big"><i class="ti ti-check"></i></div>
+    <h1>Commande envoyée !</h1>
+    <p class="num">Numéro de commande : <b>${esc(o.num)}</b> · Paiement : ${esc(o.pay)}</p>
+    <p style="color:var(--body); line-height:1.6;">Votre commande détaillée a été transmise sur WhatsApp à notre équipe. Nous vous confirmons la disponibilité, les frais de livraison pour <b>${esc(o.customer.zone)}</b> et l'heure de passage dans les plus brefs délais.</p>
+    <div class="recap">
+      ${o.items.map(i=>'<div class="srow"><span>'+i.qty+' × '+esc(i.name)+(i.size?' ('+esc(i.size)+')':'')+'</span><b>'+money(i.price*i.qty)+'</b></div>').join('')}
+      <div class="srow total"><span>Total</span><span>${money(o.total)}</span></div>
+    </div>
+    <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a class="btn btn-solid" href="#/boutique">Continuer mes achats</a>
+      <a class="btn btn-wa" href="https://wa.me/${SHOP.WHATSAPP}" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> Ouvrir WhatsApp</a>
+    </div>
+  </div>`;
+}
+
+/* ---------- FAVORIS ---------- */
+function viewFav(){
+  const list = wish.map(byId).filter(Boolean);
+  return `
+  ${crumbs([{label:'Mes favoris'}])}
+  <section class="sec">
+    <h1 class="page-title">Mes favoris</h1>
+    <p class="page-sub">${list.length} produit${list.length>1?'s':''} enregistré${list.length>1?'s':''}</p>
+    <div style="margin-top:26px;">
+      ${list.length ? gridHTML(list) : '<div class="empty"><i class="ti ti-heart"></i>Aucun favori pour le moment.<br><br><a class="btn btn-line" href="#/boutique">Parcourir la boutique</a></div>'}
+    </div>
+  </section>`;
+}
+
+/* ---------- CONTACT ---------- */
+function viewContact(){
+  return `
+  ${crumbs([{label:'Contact'}])}
+  <section class="sec">
+    <h1 class="page-title">Nous contacter</h1>
+    <p class="page-sub">Notre équipe vous répond 7j/7 à Dakar.</p>
+    <div class="contact-grid" style="margin-top:28px;">
+      <div class="ccard rv"><i class="ti ti-brand-whatsapp"></i><h4>WhatsApp</h4><p>Le plus rapide — commandes, questions, suivi.</p><a class="btn btn-wa" href="https://wa.me/${SHOP.WHATSAPP}" target="_blank" rel="noopener">${SHOP.PHONE_DISPLAY}</a></div>
+      <div class="ccard rv"><i class="ti ti-phone"></i><h4>Téléphone</h4><p>Appelez-nous aux heures de bureau.</p><a class="btn btn-line" href="tel:+${SHOP.WHATSAPP}">+221 ${SHOP.PHONE_DISPLAY}</a></div>
+      <div class="ccard rv"><i class="ti ti-mail"></i><h4>E-mail</h4><p>Pour les demandes professionnelles et partenariats.</p><a class="btn btn-line" href="mailto:${SHOP.EMAIL}">Écrire un e-mail</a></div>
+      <div class="ccard rv"><i class="ti ti-map-pin"></i><h4>Dakar, Sénégal</h4><p>Livraison J+1 dans tout Dakar et sa banlieue.</p><a class="btn btn-line" href="#/boutique">Voir la boutique</a></div>
+    </div>
+  </section>`;
+}
+
+/* ---------- 404 ---------- */
+function view404(){
+  return '<div class="empty" style="padding:90px 20px;"><i class="ti ti-error-404"></i><h1 class="page-title" style="margin-bottom:8px;">Page introuvable</h1><p style="margin-bottom:26px;">Le produit ou la page demandée n\'existe pas.</p><a class="btn btn-solid" href="#/">Retour à l\'accueil</a></div>';
+}
+
+/* ============================================================
+   ROUTEUR
+   ============================================================ */
+function parseHash(){
+  const h = location.hash.replace(/^#\/?/, '');
+  const [pathStr, queryStr] = h.split('?');
+  return { path: pathStr.split('/').filter(Boolean), params: new URLSearchParams(queryStr || '') };
+}
+function render(){
+  const { path, params } = parseHash();
+  const p0 = path[0] || '';
+  let html = '', title = SHOP.NAME, nav = '';
+  switch(p0){
+    case '': html = viewHome(); nav='home'; title = SHOP.NAME + ' — Boutique en ligne au Sénégal'; break;
+    case 'boutique': html = viewShop(params); nav='shop'; title = 'Boutique — ' + SHOP.NAME; break;
+    case 'produit': { const p = byId(path[1]); html = viewProduct(path[1]); title = (p ? p.name + ' — ' : '') + SHOP.NAME; break; }
+    case 'panier': html = viewCart(); title = 'Panier — ' + SHOP.NAME; break;
+    case 'commande': html = viewCheckout(); title = 'Commande — ' + SHOP.NAME; break;
+    case 'confirmation': html = viewConfirm(); title = 'Commande envoyée — ' + SHOP.NAME; break;
+    case 'favoris': html = viewFav(); title = 'Mes favoris — ' + SHOP.NAME; break;
+    case 'contact': html = viewContact(); title = 'Contact — ' + SHOP.NAME; break;
+    default: html = view404();
+  }
+  if(html === '') return; // redirection interne déjà effectuée
+  $('#app').innerHTML = html;
+  document.title = title;
+  document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('on', a.dataset.nav === nav));
+  if(p0 === 'boutique') renderShopResults();
+  const hs = $('#hsearch-input'); if(hs && p0 !== 'boutique') hs.value = '';
+  window.scrollTo({ top:0 });
+  observeReveals();
+  badges();
+}
+window.addEventListener('hashchange', render);
+
+/* ---------- Révélation au scroll ---------- */
+let io = null;
+function observeReveals(){
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if(!('IntersectionObserver' in window)) return;
+  if(!io){
+    io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin:'0px 0px -30px 0px', threshold:.05 });
+  }
+  document.querySelectorAll('.rv:not(.in)').forEach(el => io.observe(el));
+}
+
+/* ---------- Header ombré au scroll ---------- */
+let tick = false;
+window.addEventListener('scroll', () => {
+  if(tick) return; tick = true;
+  requestAnimationFrame(() => {
+    document.body.classList.toggle('scrolled', (window.scrollY||0) > 10);
+    tick = false;
+  });
+}, { passive:true });
+
+/* ---------- Démarrage ---------- */
+document.getElementById('year').textContent = new Date().getFullYear();
+badges();
+render();
+</script>
+</body>
+</html>
